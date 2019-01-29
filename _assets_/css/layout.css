@@ -255,12 +255,12 @@ ul>li>a {text-decoration: none;}
 
 /* ---------------- Hero ---------------- */
 #hero {position: relative;}
-#hero>h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 120px; text-transform: uppercase;}
+#hero>h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 120px; font-weight: 700; text-transform: uppercase;}
 @font-face {
 	font-family: wildYouth;
 	src: url(../fonts/WildYouth-Regular.otf_/WildYouth-Regular.otf);
   }
-#hero>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; text-transform: none; position: absolute; bottom: -50px; right: 20px}
+#hero>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; font-weight: 300; text-transform: none; position: absolute; bottom: -50px; right: 20px}
 #hero>h1>span:first-of-type {top: -50px; left: 18px;}
 
 
@@ -269,6 +269,14 @@ ul>li>a {text-decoration: none;}
 .gutters {margin: 0 1.6%;}
 .gutters>img {width: 75px;}
 .gutters>h3 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700;}
+
+
+/* ---------------- Quick Links ---------------- */
+#welcome {margin-top: 100px;}
+#welcome>h1 {font-family: wildYouth; font-size: 32px; color: #91b789;}
+#welcome>h1>span {font-family: Lato; font-weight: 700; font-size: 42px; text-transform: uppercase; color: #546a92;}
+#welcome>p {width: 35%; margin: 0 auto; font-size: 16px;}
+
 
 /* -----------------------------------------
 
