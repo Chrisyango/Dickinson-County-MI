@@ -65,27 +65,27 @@
 
 <section id="quick-links">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
+		<div class="row text-center">
+			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/document.png">
 				<h3>Documents</h3>
-			</div>
-			<div class="col-md-2">
+			</a>
+			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/tick-done.png">
 				<h3>Elections</h3>
-			</div>
-			<div class="col-md-2">
+			</a>
+			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/calendar.png">
 				<h3>Calendar</h3>
-			</div>
-			<div class="col-md-2">
+			</a>
+			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/environment.png">
 				<h3>Parks & Rec</h3>
-			</div>
-			<div class="col-md-2">
+			</a>
+			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/communication.png">
 				<h3>Contact Us</h3>
-			</div>
+			</a>
 		</div>
 	</div>
 </section><!-- #quick-links -->

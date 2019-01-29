@@ -239,38 +239,36 @@ body{overflow-x:hidden;}
 
 
 /* ---------------- Nav ---------------- */
-
 .nav {background-color: #27344d;}
-
 .nav-container {width: 90%; margin: 0 auto;}
-
 #logo {width: 477px; padding: 15px 0px;}
 
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+
 ul {list-style-type: none; margin-bottom: 0;}
-
 ul>li>a {text-decoration: none;}
-
 .nav-link {display: inline-block; margin-right: 20px;}
-
 .nav-link>a {display: block; color: #fff; padding: 41px 0px; text-transform: uppercase; font-weight: 700; font-size: 18px;}
-
 .fa-search {color: #f7f088;}
 
 
 /* ---------------- Hero ---------------- */
-
 #hero {position: relative;}
-
 #hero>h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 120px; text-transform: uppercase;}
-
 @font-face {
 	font-family: wildYouth;
 	src: url(../fonts/WildYouth-Regular.otf_/WildYouth-Regular.otf);
   }
-
 #hero>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; text-transform: none; position: absolute; bottom: -50px; right: 20px}
-
 #hero>h1>span:first-of-type {top: -50px; left: 18px;}
+
+
+/* ---------------- Quick Links ---------------- */
+#quick-links {margin: 30px 0;}
+.gutters {margin: 0 1.6%;}
+.gutters>img {width: 75px;}
+.gutters>h3 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700;}
 
 /* -----------------------------------------
 
