@@ -6,14 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>SiteName</title>
+	<title>Dickinson County, MI</title>
 	<meta name="description" content="">
 	<meta name="robots" content="index, follow">
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" href="_assets_/css/animate.min.css"> -->
-	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -36,42 +35,63 @@
 </head>
 <body id="homepage">
 
-<nav class="nav navbar navbar-styles">
-	<a id="logo" href="./"><img src="./_assets_/images/logo.png"></a>
-	<ul class="nav-links">
-		<li class="nav-link"><a href="./">Home</a></li>
-		<li class="nav-link"><a href="./">Government</a></li>
-		<li class="nav-link"><a href="./">Residents</a></li>
-		<li class="nav-link"><a href="./">Businesses</a></li>
-		<li class="nav-link"><a href="./">Visitors</a></li>
-		<li class="nav-link"><a href="./">How Do I...</a></li>
-	</ul><!-- .nav-links -->
-	<div id="search">
-		<form class="search-form" method="get" action="search.php">
-			<label class="fa fa-search" for="search-input"></label>
-			<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
-		</form>
-	</div><!-- /#search -->
+<nav class="nav clearfix">
+	<div class="nav-container">
+		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png"></a>
+		<ul class="nav-links pull-right">
+			<li class="nav-link"><a href="./">Home</a></li>
+			<li class="nav-link"><a href="./">Government</a></li>
+			<li class="nav-link"><a href="./">Residents</a></li>
+			<li class="nav-link"><a href="./">Businesses</a></li>
+			<li class="nav-link"><a href="./">Visitors</a></li>
+			<li class="nav-link"><a href="./">How Do I...</a></li>
+			<li class="nav-link">
+				<div id="search">
+					<form class="search-form" method="get" action="search.php">
+						<label class="fa fa-search fa-lg" for="search-input"></label>
+						<!-- <input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input"> -->
+					</form>
+				</div><!-- /#search -->
+			</li>
+		</ul><!-- .nav-links -->	
+	</div>
 </nav><!-- .nav.navbar -->
 
 
 <section id="hero">
-	<div class="hero-image text-center">
-
-	</div>
+	<img src="./_assets_/images/hero.jpg">
+	<h1><span>Explore</span>Dickinson<span>County</span></h1>
 </section><!-- #hero -->
 
 <section id="quick-links">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-">
+			<div class="col-md-2">
+				<img src="./_assets_/images/document.png">
+				<h3>Documents</h3>
+			</div>
+			<div class="col-md-2">
+				<img src="./_assets_/images/tick-done.png">
+				<h3>Elections</h3>
+			</div>
+			<div class="col-md-2">
+				<img src="./_assets_/images/calendar.png">
+				<h3>Calendar</h3>
+			</div>
+			<div class="col-md-2">
+				<img src="./_assets_/images/environment.png">
+				<h3>Parks & Rec</h3>
+			</div>
+			<div class="col-md-2">
+				<img src="./_assets_/images/communication.png">
+				<h3>Contact Us</h3>
 			</div>
 		</div>
 	</div>
 </section><!-- #quick-links -->
 
 <section id="welcome" class="text-center">
-	<p>Welcome to <span>Dickinson County</span></p>
+	<h1>Welcome to <span>Dickinson County</span></h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section><!-- #welcome -->
 
@@ -114,7 +134,7 @@
 		<ul>
 			<li><a href="./">Board of Commissioners</a></li>
 			<li><a href="./">Register of Deeds</a></li>
-			<li><a href="./"></a>County Controller</li>
+			<li><a href="./">County Controller</a></li>
 			<li><a href="./">Friend of the Court</a></li>
 			<li><a href="./">County Clerk</a></li>
 			<li><a href="./">County Treasurer</a></li>
@@ -224,7 +244,6 @@
 
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
-<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
