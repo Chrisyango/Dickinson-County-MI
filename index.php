@@ -37,7 +37,7 @@
 <body id="homepage">
 
 <main>
-<nav class="nav clearfix">
+<nav class="nav clearfix navbar-fixed-top">
 	<div class="nav-container">
 		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png"></a>
 		<ul class="nav-links pull-right">
@@ -105,18 +105,18 @@
 </section><!-- #welcome -->
 
 <section id="lwp">
-	<div class="lwp-box" id="live">
+	<a class="lwp-box" id="live" href="./">
 		<img src="./_assets_/images/live.jpg">
 		<h2>Live</h2>
-	</div>
-	<div class="lwp-box" id="work">
+	</a>
+	<a class="lwp-box" id="work" href="./">
 		<img src="./_assets_/images/work.jpg">
 		<h2>Work</h2>
-	</div>
-	<div class="lwp-box" id="play">
+	</a>
+	<a class="lwp-box" id="play" href="./">
 		<img src="./_assets_/images/play.jpg">
 		<h2>Play</h2>
-	</div>
+	</a>
 </section><!-- #live-work-play -->
 
 <section id="info">
