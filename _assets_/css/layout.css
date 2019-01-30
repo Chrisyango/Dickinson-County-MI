@@ -258,8 +258,6 @@ ul>li>a {text-decoration: none;}
 #nav>li>ul>div>div>li>ul>li>a {color: #fff; font-size: 14px;}
 #nav>li>ul>div>div>li>ul {margin-left: 5px;}
 
-.hovered {display: block;}
-
 
 /* ---------------- Hero ---------------- */
 @font-face {
