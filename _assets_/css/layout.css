@@ -317,7 +317,7 @@ ul>li>a {text-decoration: none;}
 footer {background-color: #546a92; padding: 15px; color: #fff;}
 footer>p {font-size: 13px; font-weight: 700; text-transform: uppercase; margin: 0; padding: 0;}
 footer>p>span {font-family:'Roboto', sans-serif; font-size: 18px; text-transform: lowercase;}
-footer>p>.login {color: #fff;}
+footer>p>a {color: #fff !important;}
 
 
 /* -----------------------------------------

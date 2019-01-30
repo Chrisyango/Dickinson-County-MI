@@ -37,7 +37,7 @@
 <body id="homepage">
 
 <main>
-<nav class="nav clearfix navbar-fixed-top">
+<nav class="nav navbar-fixed-top">
 	<div>
 		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png"></a>
 		<ul id="nav" class="pull-right">
