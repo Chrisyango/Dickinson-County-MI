@@ -103,14 +103,17 @@
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section><!-- #welcome -->
 
-<section id="live-work-play">
-	<div class="live">
+<section id="lwp">
+	<div class="lwp-box" id="live">
+		<img src="./_assets_/images/live.jpg">
 		<h2>Live</h2>
 	</div>
-	<div class="work">
+	<div class="lwp-box" id="work">
+		<img src="./_assets_/images/work.jpg">
 		<h2>Work</h2>
 	</div>
-	<div class="play">
+	<div class="lwp-box" id="play">
+		<img src="./_assets_/images/play.jpg">
 		<h2>Play</h2>
 	</div>
 </section><!-- #live-work-play -->

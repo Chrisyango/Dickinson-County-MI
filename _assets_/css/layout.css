@@ -279,6 +279,15 @@ ul>li>a {text-decoration: none;}
 #welcome>p {width: 35%; margin: 0 auto; font-size: 16px;}
 
 
+/* ---------------- Live-Work-Play ---------------- */
+#lwp {position: relative; background:url('../images/live-work-play.jpg') center no-repeat;background-size:cover; height: 794px;}
+.lwp-box {position: absolute; border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222;}
+.lwp-box>img {border-radius: 5px;}
+.lwp-box>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000;}
+#live {top: 55%; left: 10%;}
+#work {top: 55%; left: 50%; transform: translate(-50%, -10%); z-index: 2;}
+#play {top: 55%; right: 10%;}
+
 /* -----------------------------------------
 
 #inner
