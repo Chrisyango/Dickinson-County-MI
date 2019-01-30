@@ -69,6 +69,7 @@
 	$("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 	// $("#nav > li > ul > li:has(ul)").addClass('second-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 
+	// Custom Nav Function that opens Mega Menu
 	$("#nav > li:has(ul)").hover(function() {
 		$("ul", this).css('display', 'block');
 		$(this).css('box-shadow', 'inset 0px -5px 0px #f7f088');

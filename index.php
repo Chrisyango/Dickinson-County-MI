@@ -143,23 +143,23 @@
 <section id="quick-links">
 	<div class="container">
 		<div class="row text-center">
-			<a href="./" class="col-md-2 gutters">
+			<a href="./" class="col-md-2">
 				<img src="./_assets_/images/document.png">
 				<h2>Documents</h2>
 			</a>
-			<a href="./" class="col-md-2 gutters">
+			<a href="./" class="col-md-2">
 				<img src="./_assets_/images/tick-done.png">
 				<h2>Elections</h2>
 			</a>
-			<a href="./" class="col-md-2 gutters">
+			<a href="./" class="col-md-2">
 				<img src="./_assets_/images/calendar.png">
 				<h2>Calendar</h2>
 			</a>
-			<a href="./" class="col-md-2 gutters">
+			<a href="./" class="col-md-2">
 				<img src="./_assets_/images/environment.png">
 				<h2>Parks & Rec</h2>
 			</a>
-			<a href="./" class="col-md-2 gutters">
+			<a href="./" class="col-md-2">
 				<img src="./_assets_/images/communication.png">
 				<h2>Contact Us</h2>
 			</a>
@@ -173,15 +173,15 @@
 </section><!-- #welcome -->
 
 <section id="lwp">
-	<a class="lwp-box" id="live" href="./">
+	<a id="live" href="./">
 		<img src="./_assets_/images/live.jpg">
 		<h2>Live</h2>
 	</a>
-	<a class="lwp-box" id="work" href="./">
+	<a id="work" href="./">
 		<img src="./_assets_/images/work.jpg">
 		<h2>Work</h2>
 	</a>
-	<a class="lwp-box" id="play" href="./">
+	<a id="play" href="./">
 		<img src="./_assets_/images/play.jpg">
 		<h2>Play</h2>
 	</a>
@@ -189,20 +189,20 @@
 
 <section id="info">
 	<div class="container">
-		<div class="row  text-center">
-			<div class="info-box col-md-3">
+		<div class="row text-center">
+			<div class="col-md-3">
 				<div><img src="./_assets_/images/users.png"></div>
 				<h2><span>27,472</span><br>population</h2>
 			</div>
-			<div class="info-box col-md-3">
+			<div class="col-md-3">
 				<div><img src="./_assets_/images/rulers-combined.png"></div>
 				<h2><span>220,000</span><br>acres of public land</h2>
 			</div>
-			<div class="info-box col-md-3">
+			<div class="col-md-3">
 				<div><img src="./_assets_/images/tint.png"></div>
 				<h2><span>6,400</span><br>acres of lakes</h2>
 			</div>
-			<div class="info-box col-md-3">
+			<div class="col-md-3">
 				<div><img src="./_assets_/images/leaf.png"></div>
 				<h2><span>30+</span><br>parks & campgrounds</h2>
 			</div>
