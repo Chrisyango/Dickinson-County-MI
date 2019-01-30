@@ -70,13 +70,13 @@
 	// $("#nav > li > ul > li:has(ul)").addClass('second-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 
 	// Custom Nav Function that opens Mega Menu
-	$("#nav > li:has(ul)").hover(function() {
-		$("ul", this).css('display', 'block');
-		$(this).css('box-shadow', 'inset 0px -5px 0px #f7f088');
-	}, function() {
-		$("ul", this).css('display', 'none');
-		$(this).css('box-shadow', 'none');
-	});
+	// $("#nav > li:has(ul)").hover(function() {
+	// 	$("ul", this).css('display', 'block');
+	// 	$(this).css('box-shadow', 'inset 0px -5px 0px #f7f088');
+	// }, function() {
+	// 	$("ul", this).css('display', 'none');
+	// 	$(this).css('box-shadow', 'none');
+	// });
 
 	// Menu Toggles
 	$("#nav >li:has(ul)").children("a,span").append('<i class="fa fa-angle-down toggle">');
