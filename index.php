@@ -35,6 +35,7 @@
 </head>
 <body id="homepage">
 
+<main>
 <nav class="nav clearfix">
 	<div class="nav-container">
 		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png"></a>
@@ -57,11 +58,18 @@
 	</div>
 </nav><!-- .nav.navbar -->
 
-
-<section id="hero">
-	<img src="./_assets_/images/hero.jpg">
-	<h1><span>Explore</span>Dickinson<span>County</span></h1>
-</section><!-- #hero -->
+<section id="slider">
+	<ul class="bxslider">
+		<li style="background:url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;">
+			<img src="./_assets_/images/hero-whitespace.png">
+			<h1>
+				<span>Explore</span>
+				Dickinson
+				<span>County</span>
+			</h1>
+		</li>
+	</ul><!--/.bxslider-->
+</section><!--/#slider-->
 
 <section id="quick-links">
 	<div class="container">
@@ -91,7 +99,7 @@
 </section><!-- #quick-links -->
 
 <section id="welcome" class="text-center">
-	<h1>Welcome to <br><span>Dickinson County</span></h1>
+	<h2>Welcome to <br><span>Dickinson County</span></h2>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section><!-- #welcome -->
 
@@ -173,6 +181,7 @@
 		</div>
 	</div>
 </section><!-- #footer-links -->
+</main>
 
 <footer>
 	<p>powered by <span>revize.</span> | <a href="./">login</a></p>
