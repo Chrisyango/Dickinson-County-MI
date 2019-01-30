@@ -280,13 +280,21 @@ ul>li>a {text-decoration: none;}
 
 
 /* ---------------- Live-Work-Play ---------------- */
-#lwp {position: relative; background:url('../images/live-work-play.jpg') center no-repeat;background-size:cover; height: 794px;}
+#lwp {position: relative; background:url('../images/live-work-play.jpg') center no-repeat;background-size:cover; height: 794px; margin: 30px 0;}
 .lwp-box {position: absolute; border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222;}
 .lwp-box>img {border-radius: 5px;}
 .lwp-box>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000;}
 #live {top: 55%; left: 10%;}
 #work {top: 55%; left: 50%; transform: translate(-50%, -10%); z-index: 2;}
 #play {top: 55%; right: 10%;}
+
+
+/* ---------------- Info ---------------- */
+#info {margin: 300px 0 100px 0;}
+.info-box>div {position: relative; left: 50%; transform: translate(-50%, 0%); border-radius: 50%; background-color: #546a92; width: 150px; height: 150px;}
+.info-box>div>img {position: absolute; top: 30px; left: 25px; width: 100px;}
+.info-box>h2 {font-size: 24px; color: #91b789; text-transform: uppercase;}
+.info-box>h2>span {font-size: 48px; color: #546a92}
 
 /* -----------------------------------------
 

@@ -120,21 +120,23 @@
 
 <section id="info">
 	<div class="container">
-		<div class="">
-			<img src="./_assets_/images/users.png">
-			<p>27,472<br>population</p>
-		</div>
-		<div class="">
-			<img src="./_assets_/images/rulers-combined.png">
-			<p>220,000<br>acres of public land</p>
-		</div>
-		<div class="">
-			<img src="./_assets_/images/tint.png">
-			<p>6,400<br>acres of lakes</p>
-		</div>
-		<div class="">
-			<img src="./_assets_/images/leaf.png">
-			<p>30+<br>parks & campgrounds</p>
+		<div class="row  text-center">
+			<div class="info-box col-md-3">
+				<div><img src="./_assets_/images/users.png"></div>
+				<h2><span>27,472</span><br>population</h2>
+			</div>
+			<div class="info-box col-md-3">
+				<div><img src="./_assets_/images/rulers-combined.png"></div>
+				<h2><span>220,000</span><br>acres of public land</h2>
+			</div>
+			<div class="info-box col-md-3">
+				<div><img src="./_assets_/images/tint.png"></div>
+				<h2><span>6,400</span><br>acres of lakes</h2>
+			</div>
+			<div class="info-box col-md-3">
+				<div><img src="./_assets_/images/leaf.png"></div>
+				<h2><span>30+</span><br>parks & campgrounds</h2>
+			</div>
 		</div>
 	</div>
 </section><!-- #info -->
