@@ -1,9 +1,10 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: SiteName
+	Theme Name: Dickinson County, MI
 	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
+	Front-end Developer: Chris Yang
 	Author URI: http://www.revize.com/
-	Date: MONTH DAY, 2015
+	Date: January 29, 2019
 
 -----------------------------------------------------------------------------------*/
 
@@ -66,6 +67,15 @@
 
 	// Menu Arrows
 	$("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
+	// $("#nav > li > ul > li:has(ul)").addClass('second-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
+
+	$("#nav > li:has(ul)").hover(function() {
+		$("ul", this).css('display', 'block');
+		$(this).css('box-shadow', 'inset 0px -5px 0px #f7f088');
+	}, function() {
+		$("ul", this).css('display', 'none');
+		$(this).css('box-shadow', 'none');
+	});
 
 	// Menu Toggles
 	$("#nav >li:has(ul)").children("a,span").append('<i class="fa fa-angle-down toggle">');

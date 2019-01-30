@@ -38,16 +38,84 @@
 
 <main>
 <nav class="nav clearfix navbar-fixed-top">
-	<div class="nav-container">
+	<div>
 		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png"></a>
-		<ul class="nav-links pull-right">
-			<li class="nav-link"><a href="./">Home</a></li>
-			<li class="nav-link"><a href="./">Government</a></li>
-			<li class="nav-link"><a href="./">Residents</a></li>
-			<li class="nav-link"><a href="./">Businesses</a></li>
-			<li class="nav-link"><a href="./">Visitors</a></li>
-			<li class="nav-link"><a href="./">How Do I...</a></li>
-			<li class="nav-link">
+		<ul id="nav" class="pull-right">
+			<li><a href="./">Home</a></li>
+			<li>
+				<a href="./">Government</a>
+				<ul class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<li>
+								<a href="./">Section Header</a>
+								<ul>
+									<li><a href="./">Euismod Cras Vestibulum</a></li>
+									<li><a href="./">Mollis Vulputate Mattis</a></li>
+									<li><a href="./">Fusce Mollis Commodo</a></li>
+									<li><a href="./">Inceptos Justo Risus Tortor</a></li>
+									<li><a href="./">Euismod Tellus Euismod</a></li>
+									<li><a href="./">Cras Vestibulum Mollis</a></li>
+									<li><a href="./">Vulputate Mattis Fusce</a></li>
+									<li><a href="./">Mollis Commodo Inceptos</a></li>
+								</ul>
+							</li>
+						</div><!-- .col-md-3 -->
+						<div class="col-md-3">
+							<li>
+								<a href="./">Section Header</a>
+								<ul>
+									<li><a href="./">Euismod Cras Vestibulum</a></li>
+									<li><a href="./">Mollis Vulputate Mattis</a></li>
+									<li><a href="./">Fusce Mollis Commodo</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="./">Section Header</a>
+								<ul>
+									<li><a href="./">Inceptos Justo Risus Tortor</a></li>
+									<li><a href="./">Euismod Tellus Euismod</a></li>
+								</ul>
+							</li>
+						</div><!-- .col-md-3 -->
+						<div class="col-md-3">
+							<li>
+								<a href="./">Section Header</a>
+								<ul>
+									<li><a href="./">Inceptos Justo Risus Tortor</a></li>
+									<li><a href="./">Euismod Tellus Euismod</a></li>
+									<li><a href="./">Cras Vestibulum Mollis</a></li>
+								</ul>
+							</li>
+							<li><a href="./">Section Header</a></li>
+							<li>
+								<a href="./">Section Header</a>
+								<ul>
+									<li><a href="./">Vulputate Mattis Fusce</a></li>
+									<li><a href="./">Mollis Commodo Inceptos</a></li>
+								</ul>
+							</li>
+						</div><!-- .col-md-3 -->
+						<div class="col-md-3">
+							<li>
+								<a href="./">Section Header</a>
+								<ul>
+									<li><a href="./">Euismod Cras Vestibulum</a></li>
+									<li><a href="./">Mollis Vulputate Mattis</a></li>
+									<li><a href="./">Fusce Mollis Commodo</a></li>
+									<li><a href="./">Inceptos Justo Risus Tortor</a></li>
+									<li><a href="./">Euismod Tellus Euismod</a></li>
+								</ul>
+							</li>
+						</div><!-- .col-md-3 -->
+					</div><!-- .row -->
+				</ul><!-- .container -->
+			</li>
+			<li><a href="./">Residents</a></li>
+			<li><a href="./">Businesses</a></li>
+			<li><a href="./">Visitors</a></li>
+			<li><a href="./">How Do I...</a></li>
+			<li>
 				<div id="search">
 					<form class="search-form" method="get" action="search.php">
 						<label class="fa fa-search fa-lg" for="search-input"></label>
@@ -55,7 +123,7 @@
 					</form>
 				</div><!-- /#search -->
 			</li>
-		</ul><!-- .nav-links -->	
+		</ul><!-- .nav-links -->
 	</div>
 </nav><!-- .nav.navbar -->
 

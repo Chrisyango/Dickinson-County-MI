@@ -240,17 +240,25 @@ body{overflow-x:hidden;}
 
 /* ---------------- Nav ---------------- */
 .nav {background-color: #27344d;}
-.nav-container {width: 90%; margin: 0 auto;}
-#logo {width: 477px; padding: 15px 0px;}
+.nav>div {width: 90%; margin: 0 auto;}
+#logo {width: 477px; padding: 13px 0px;}
 
 a {text-decoration: none;}
 a:hover {text-decoration: none;}
 
 ul {list-style-type: none; margin-bottom: 0; margin-left: 0; padding-left: 0;}
 ul>li>a {text-decoration: none;}
-.nav-link {display: inline-block; margin-right: 20px;}
-.nav-link>a {display: block; color: #fff; padding: 41px 0px; text-transform: uppercase; font-weight: 700; font-size: 18px;}
+#nav>li {display: inline-block; margin-bottom: 0;}
+#nav>li>a {display: block; color: #fff; padding: 42px 10px; text-transform: uppercase; font-weight: 700; font-size: 18px;}
 .fa-search {color: #f7f088;}
+/* #nav>li>a:hover {box-shadow: inset 0px -5px 0px #f7f088;} */
+#nav>li>ul {display: none; position: absolute; right: 7%; margin-top: 0px; padding: 25px; background-color: #546a92; width: 910px;}
+#nav>li>ul>div>div>li {padding: 5px;}
+#nav>li>ul>div>div>li>a {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase;}
+#nav>li>ul>div>div>li>ul>li>a {color: #fff; font-size: 14px;}
+#nav>li>ul>div>div>li>ul {margin-left: 5px;}
+
+.hovered {display: block;}
 
 
 /* ---------------- Hero ---------------- */
