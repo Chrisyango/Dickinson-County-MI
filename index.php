@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -76,23 +77,23 @@
 		<div class="row text-center">
 			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/document.png">
-				<h3>Documents</h3>
+				<h2>Documents</h2>
 			</a>
 			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/tick-done.png">
-				<h3>Elections</h3>
+				<h2>Elections</h2>
 			</a>
 			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/calendar.png">
-				<h3>Calendar</h3>
+				<h2>Calendar</h2>
 			</a>
 			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/environment.png">
-				<h3>Parks & Rec</h3>
+				<h2>Parks & Rec</h2>
 			</a>
 			<a href="./" class="col-md-2 gutters">
 				<img src="./_assets_/images/communication.png">
-				<h3>Contact Us</h3>
+				<h2>Contact Us</h2>
 			</a>
 		</div>
 	</div>
@@ -142,54 +143,60 @@
 </section><!-- #info -->
 
 <section id="footer-links">
-	<div id="county-departments">
-		<h4>County Departments</h4>
-		<ul>
-			<li><a href="./">Board of Commissioners</a></li>
-			<li><a href="./">Register of Deeds</a></li>
-			<li><a href="./">County Controller</a></li>
-			<li><a href="./">Friend of the Court</a></li>
-			<li><a href="./">County Clerk</a></li>
-			<li><a href="./">County Treasurer</a></li>
-			<li><a href="./">Courts</a></li>
-		</ul>
-	</div>
-	<div id="county-departments">
-		<h4>County Departments</h4>
-		<ul>
-			<li><a href="./">Drain Commissioner</a></li>
-			<li><a href="./">Equalization</a></li>
-			<li><a href="./">Sheriff's Department</a></li>
-			<li><a href="./">Parks</a></li>
-			<li><a href="./">Prosecuting Attorney</a></li>
-			<li><a href="./">Ford Airport</a></li>
-		</ul>
-	</div>
-	<div id="quick-links">
-		<h4>Quicklinks</h4>
-		<ul>
-			<li><a href="./">Documents</a></li>
-			<li><a href="./">Elections</a></li>
-			<li><a href="./">Calendar</a></li>
-			<li><a href="./">Parks & Rec</a></li>
-			<li><a href="./">Contact Information</a></li>
-		</ul>
-	</div>
-	<div id="contact-us">
-		<div id="contact-us">
-		<h4>Contact Us</h4>
-		<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
-		</div>
-		<div id="mailing-address">
-		<h4>Mailing Address</h4>
-		<p>PO Box 609<br>Iron Mountain MI 49801</p>
+	<div id="footer-links-overlay"></div>
+	<img src="./_assets_/images/footer-links-whitespace.png">
+	<div class="container">
+		<div class="row">
+			<div id="county-departments" class="col-md-3">
+				<h2>County Departments</h2>
+				<ul>
+					<li><a href="./">Board of Commissioners</a></li>
+					<li><a href="./">Register of Deeds</a></li>
+					<li><a href="./">County Controller</a></li>
+					<li><a href="./">Friend of the Court</a></li>
+					<li><a href="./">County Clerk</a></li>
+					<li><a href="./">County Treasurer</a></li>
+					<li><a href="./">Courts</a></li>
+				</ul>
+			</div>
+			<div id="county-departments-cont" class="col-md-3">
+				<h2>County Departments</h2>
+				<ul>
+					<li><a href="./">Drain Commissioner</a></li>
+					<li><a href="./">Equalization</a></li>
+					<li><a href="./">Sheriff's Department</a></li>
+					<li><a href="./">Parks</a></li>
+					<li><a href="./">Prosecuting Attorney</a></li>
+					<li><a href="./">Ford Airport</a></li>
+				</ul>
+			</div>
+			<div id="quicklinks" class="col-md-3">
+				<h2>Quicklinks</h2>
+				<ul>
+					<li><a href="./">Documents</a></li>
+					<li><a href="./">Elections</a></li>
+					<li><a href="./">Calendar</a></li>
+					<li><a href="./">Parks & Rec</a></li>
+					<li><a href="./">Contact Information</a></li>
+				</ul>
+			</div>
+			<div id="contact" class="col-md-3">
+				<div id="contact-us">
+				<h2>Contact Us</h2>
+				<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
+				</div>
+				<div id="mailing-address">
+				<h2>Mailing Address</h2>
+				<p>PO Box 609<br>Iron Mountain MI 49801</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </section><!-- #footer-links -->
 </main>
 
-<footer>
-	<p>powered by <span>revize.</span> | <a href="./">login</a></p>
+<footer class="text-center">
+	<p>powered by <span>revize.</span> | <a class="login" href="./">login</a></p>
 </footer>
 
 	<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
