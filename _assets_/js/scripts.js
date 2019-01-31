@@ -279,7 +279,10 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		$("#owl-slider").owlCarousel();
+		var quickLinksCount = $('.quick-link').length;
+		$(".owl-carousel").owlCarousel({
+			items: (quickLinksCount >= 5 ? 5 : quickLinksCount)
+		});
 	}
 
 	// Preloader

@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -131,32 +132,30 @@
 	</ul><!--/.bxslider-->
 </section><!--/#slider-->
 
-<section id="quick-links">
-	<div class="container">
-		<div class="row text-center">
-			<a href="./" class="col-md-2">
-				<img src="./_assets_/images/document.png">
-				<h2>Documents</h2>
-			</a>
-			<a href="./" class="col-md-2">
-				<img src="./_assets_/images/tick-done.png">
-				<h2>Elections</h2>
-			</a>
-			<a href="./" class="col-md-2">
-				<img src="./_assets_/images/calendar.png">
-				<h2>Calendar</h2>
-			</a>
-			<a href="./" class="col-md-2">
-				<img src="./_assets_/images/environment.png">
-				<h2>Parks & Rec</h2>
-			</a>
-			<a href="./" class="col-md-2">
-				<img src="./_assets_/images/communication.png">
-				<h2>Contact Us</h2>
-			</a>
-		</div><!-- .row -->
-	</div><!-- .container -->
-</section><!-- #quick-links -->
+<section id="quick-links" class="text-center">
+	<div class="owl-carousel">
+		<a href="./" class="quick-link">
+			<img src="./_assets_/images/document.png" alt="" class="quick-link-icon">
+			<h2 class="quick-link-title">Documents</h2>
+		</a><!--/.quick-link-->
+		<a href="./" class="quick-link">
+			<img src="./_assets_/images/tick-done.png" alt="" class="quick-link-icon">
+			<h2 class="quick-link-title">Elections</h2>
+		</a><!--/.quick-link-->
+		<a href="./" class="quick-link">
+			<img src="./_assets_/images/calendar.png" alt="" class="quick-link-icon">
+			<h2 class="quick-link-title">Calendar</h2>
+		</a><!--/.quick-link-->
+		<a href="./" class="quick-link">
+			<img src="./_assets_/images/environment.png" alt="" class="quick-link-icon">
+			<h2 class="quick-link-title">Parks & Rec</h2>
+		</a><!--/.quick-link-->
+		<a href="./" class="quick-link">
+			<img src="./_assets_/images/communication.png" alt="" class="quick-link-icon">
+			<h2 class="quick-link-title">Contact Us</h2>
+		</a><!--/.quick-link-->
+	</div>
+</section>
 
 <section id="welcome" class="text-center">
 	<h2>Welcome to <br><span>Dickinson County</span></h2>
@@ -323,6 +322,7 @@
 
 
 <script src="_assets_/js/jquery.min.js"></script>
+<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>

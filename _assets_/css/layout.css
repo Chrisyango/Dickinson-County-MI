@@ -276,20 +276,9 @@ ul>li>a {text-decoration: none;}
 
 
 /* ---------------- Quick Links ---------------- */
-#quick-links {margin: 70px 0;}
-#quick-links>div>div>a {width: 20%;}
-#quick-links>div>div>a>img {width: 75px;}
-#quick-links>div>div>a>h2 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700; margin-bottom: 0;}
-
-
-/* Dashed Lines */
-#quick-links>div>div>a {
-	background-image: linear-gradient(to right, rgba(84, 106, 146, 0.3) 50%, transparent 50%), linear-gradient(to right, rgba(84, 106, 146, 0.3) 50%, transparent 50%), linear-gradient(to bottom, rgba(84, 106, 146, 0.3) 50%, transparent 50%), linear-gradient(to bottom, rgba(84, 106, 146, 0.3) 50%, transparent 50%);
-	background-position: left top, left bottom, left top, right top;
-	background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-	background-size: 0px 0px, 0px 0px, 1px 20px, 0px 20px;
-}
-#quick-links>div>div>a:first-child {background-image: none;}
+#quick-links {margin: 70px auto; width: 1400px;}
+.quick-link>h2 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700; margin-bottom: 0;}
+.owl-carousel .owl-item img {width: 75px; margin: 0 auto;}
 
 
 /* ---------------- Welcome ---------------- */
@@ -311,7 +300,7 @@ ul>li>a {text-decoration: none;}
 
 /* ---------------- Info ---------------- */
 #info {margin: 300px 0 100px 0;}
-#info>.container {width: 80%;}
+#info>div {width: 80%;}
 #info>.container>.row>.col-md-3 {padding: 0;}
 #info>div>div>div>div {margin: 0 auto; border-radius: 50%; background-color: #546a92; width: 150px; height: 150px;}
 #info>div>div>div>div>img {margin-top: 30px; width: 100px;}
