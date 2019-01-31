@@ -153,8 +153,8 @@
 				<img src="./_assets_/images/communication.png">
 				<h2>Contact Us</h2>
 			</a>
-		</div>
-	</div>
+		</div><!-- .row -->
+	</div><!-- .container -->
 </section><!-- #quick-links -->
 
 <section id="welcome" class="text-center">
