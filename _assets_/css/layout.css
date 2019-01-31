@@ -239,7 +239,7 @@ body{overflow-x:hidden;}
 
 /* ---------------- Nav ---------------- */
 nav {background-color: #27344d;}
-nav>div {width: 1400px; margin: 0 auto;}
+nav>div {padding: 0 70px;}
 #logo {width: 477px; padding: 13px 0px;}
 a {text-decoration: none;}
 a:hover {text-decoration: none;}
@@ -251,8 +251,6 @@ ul>li>a {text-decoration: none;}
 #nav>li>ul {display: none; position: absolute; right: 7%; margin-top: 0px; padding: 30px; background-color: #546a92; width: 910px; height: 300px;}
 #nav>li>ul>li>a {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase;}
 #nav>li>ul>li>ul>li>a {color: #fff; font-size: 14px;}
-#nav>li>ul>li>ul {margin-left: 3px;}
-#nav>li>a:hover {box-shadow: inset 0px -5px 0px #f7f088;}
 #nav>li:hover>ul{display:block}
 #search>form {position: relative;}
 #search>form>label {display: none;}
@@ -276,7 +274,7 @@ ul>li>a {text-decoration: none;}
 
 
 /* ---------------- Quick Links ---------------- */
-#quick-links {margin: 70px auto; width: 1400px;}
+#quick-links {margin: 70px 100px;}
 .quick-link>h2 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700; margin-bottom: 0;}
 .owl-carousel .owl-item img {width: 75px; margin: 0 auto;}
 
@@ -293,9 +291,9 @@ ul>li>a {text-decoration: none;}
 #lwp>a {position: absolute; border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222;}
 #lwp>a>img {border-radius: 5px;}
 #lwp>a>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000; letter-spacing: 10px;}
-#live {top: 440px; left: 120px;}
-#work {top: 400px; left: 530px; z-index: 2;}
-#play {top: 440px; right: 120px;}
+#live {top: 55%; left: 10%;}
+#work {top: 57%; left: 50%; transform: translate(-50%, -10%); z-index: 2;}
+#play {top: 55%; right: 10%;}
 
 
 /* ---------------- Info ---------------- */
@@ -411,8 +409,11 @@ footer>p>a {color: #fff !important;}
 
 -----------------------------------------*/
 @media only screen and (min-width:992px) {
+	
+	#nav>li>ul>li>ul {margin-left: 3px;}
+	#nav>li>a:hover {box-shadow: inset 0px -5px 0px #f7f088;}
 
-		#flyout,#nav{display:block!important}
+	#flyout,#nav{display:block!important}
 
 }
 
@@ -427,21 +428,38 @@ footer>p>a {color: #fff !important;}
 
 	.toggle,
 	.toggle2,
-	#nav-toggle{display:inline-block;cursor:pointer}
+	#nav-toggle{display:inline-block;cursor:pointer; padding: 10px 11px; border-radius: 4px; margin-top: 25px; background-color: transparent; border: 1px solid #f7f088; color: #f7f088; font-size: 25px;}
 	.down-arrow{display:none} /* if not hidden above */
-	#nav{display:none}
-	#nav li{float:none;display:block}
+	#nav{display:none; width: 100%;}
+	#nav li{float:none;display:block;}
 	#nav li a,
-	#nav li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li span{padding:15px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li input[type="search"] {margin: 15px 25px;}
+	#nav li input::placeholder {font-size: 14px;}
+	#search>form>button {margin-left: -28px; margin-top: 15px;}
 	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
-	#nav li:hover > ul{display:none}
+	#nav>li:hover > ul{display:none}
 	#nav ul a,
 	#nav ul span{width:100%}
-	#nav ul ul{left:0}
+	ul ul {margin: 0;}
 	#nav .toggle,
-	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
-	#nav li li:hover > a{background:none;color:#fff}
-
+	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2); margin: 0; line-height: 45px; width: 45px; height: 45px;text-align:center}
+	#nav li {padding: 0; margin: 0; position: relative;}
+	#nav>li>ul {position: static; width: 100%; height: auto;}
+	#nav>li>ul>li>ul{display:none}
+	#nav li li:hover > a{background:none; color:#fff}
+	#nav li li {position: relative}
+	#nav>li>ul>li>a {text-transform: none;}
+	#nav>li>ul {
+		-moz-column-count: 1;
+		-moz-column-gap: 0;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 0;
+		column-count: 1;
+		column-gap: 0;
+		padding: 0;
+		position: static;
+	}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,

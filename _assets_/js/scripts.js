@@ -70,11 +70,11 @@
 	// $("#nav > li > ul > li:has(ul)").addClass('second-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 
 	// Custom nav function that adds box shadow to current nav element
-	$("#nav > li:has(ul)").hover(function() {
-		$(this).css('box-shadow', 'inset 0px -5px 0px #f7f088');
-	}, function() {
-		$(this).css('box-shadow', 'none');
-	});
+	// $("#nav > li:has(ul)").hover(function() {
+	// 	$(this).css('box-shadow', 'inset 0px -5px 0px #f7f088');
+	// }, function() {
+	// 	$(this).css('box-shadow', 'none');
+	// });
 
 	// Menu Toggles
 	$("#nav >li:has(ul)").children("a,span").append('<i class="fa fa-angle-down toggle">');

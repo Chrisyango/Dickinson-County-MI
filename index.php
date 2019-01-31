@@ -37,10 +37,14 @@
 </head>
 <body id="homepage">
 
-<main>
+<div class="main-wrap">
+<header>
 <nav class="nav navbar-fixed-top">
 	<div>
 		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png"></a>
+		<div id="nav-toggle" class="pull-right fa fa-bars active">
+			<span class="sr-only">Toggle navigation</span>
+		</div><!-- nav-toggle -->
 		<ul id="nav" class="pull-right">
 			<li><a href="./">Home</a></li>
 			<li>
@@ -118,7 +122,9 @@
 		</ul><!-- .nav-links -->
 	</div>
 </nav><!-- .nav.navbar -->
+</header>
 
+<main>
 <section id="slider">
 	<ul class="bxslider">
 		<li style="background:url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;">
@@ -256,14 +262,13 @@
 <footer class="text-center">
 	<p>powered by <span>revize.</span> | <a class="login" href="./">login</a></p>
 </footer>
-
-	<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		<h1>Alert Title 30 characters Max</h1>
-		<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
-		<p><a href="#" class="btn">Read More</a></p>
-	</div><!-- /.alert -->
-
+	
+		<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h1>Alert Title 30 characters Max</h1>
+			<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
+			<p><a href="#" class="btn">Read More</a></p>
+		</div><!-- /.alert -->
 </div><!-- /.main-wrap -->
 
 
