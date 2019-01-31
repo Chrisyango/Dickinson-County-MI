@@ -239,7 +239,7 @@ body{overflow-x:hidden;}
 
 /* ---------------- Nav ---------------- */
 nav {background-color: #27344d;}
-nav>div {width: 90%; margin: 0 auto;}
+nav>div {width: 1400px; margin: 0 auto;}
 #logo {width: 477px; padding: 13px 0px;}
 
 a {text-decoration: none;}
@@ -289,14 +289,14 @@ ul>li>a {text-decoration: none;}
 #welcome {margin-top: 100px;}
 #welcome>h2 {font-family: wildYouth; font-size: 32px; color: #91b789;}
 #welcome>h2>span {font-family: Lato; font-weight: 700; font-size: 42px; text-transform: uppercase; color: #546a92;}
-#welcome>p {width: 35%; margin: 0 auto; font-size: 16px;}
+#welcome>p {width: 580px; margin: 0 auto; font-size: 16px;}
 
 
 /* ---------------- Live-Work-Play ---------------- */
 #lwp {position: relative; background:url('../images/live-work-play.jpg') center no-repeat;background-size:cover; height: 794px; margin: 20px 0;}
 #lwp>a {position: absolute; border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222;}
 #lwp>a>img {border-radius: 5px;}
-#lwp>a>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000;}
+#lwp>a>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000; letter-spacing: 10px;}
 #live {top: 55%; left: 10%;}
 #work {top: 57%; left: 50%; transform: translate(-50%, -10%); z-index: 2;}
 #play {top: 55%; right: 10%;}
@@ -319,6 +319,7 @@ ul>li>a {text-decoration: none;}
 #footer-links>.container {position: absolute; top: 100px; bottom: 100px; left: 13%;}
 #footer-links>.container, .container a {color: #efefef; font-size: 13px;}
 #footer-links>.container h2 {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;}
+#footer-links>.container>.row>div {padding: 0 50px;}
 
 
 /* ---------------- Nav ---------------- */
