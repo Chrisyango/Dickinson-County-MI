@@ -241,7 +241,6 @@ body{overflow-x:hidden;}
 nav {background-color: #27344d;}
 nav>div {width: 1400px; margin: 0 auto;}
 #logo {width: 477px; padding: 13px 0px;}
-
 a {text-decoration: none;}
 a:hover {text-decoration: none;}
 ul {list-style-type: none; margin-bottom: 0; margin-left: 0; padding-left: 0;}
@@ -255,6 +254,14 @@ ul>li>a {text-decoration: none;}
 #nav>li>ul>li>ul {margin-left: 3px;}
 #nav>li>a:hover {box-shadow: inset 0px -5px 0px #f7f088;}
 #nav>li:hover>ul{display:block}
+#search>form {position: relative;}
+#search>form>label {display: none;}
+#search>form>input {border: 1px solid transparent; background-color: transparent; width: 115px; color: #fff; transition: none;}
+#search>form>input[type='search'] {padding: 5px}
+#search>form>input:focus {border: 1px solid #fff; border-radius: 5px 0px 0px 5px; margin: 0;}
+#search>form>input:focus + button {border: 1px solid #fff;}
+#search>form>input::placeholder {color: #fff; font-size: 18px; font-weight: 700;}
+#search>form>button {font-family: FontAwesome, Arial; font-style: normal; font-size: 18px; padding: 7px 10px; background-color: transparent; color: #f7f088 !important; border: 1px solid transparent; border-radius: 0 5px 5px 0; margin-left: -3px;}
 
 /* ---------------- Hero ---------------- */
 @font-face {

@@ -104,12 +104,13 @@
 			<li><a href="./">Residents</a></li>
 			<li><a href="./">Businesses</a></li>
 			<li><a href="./">Visitors</a></li>
-			<li><a href="./">How Do I...</a></li>
+			<!-- <li><a href="./">How Do I...</a></li> -->
 			<li>
 				<div id="search">
 					<form class="search-form" method="get" action="search.php">
 						<label class="fa fa-search fa-lg" for="search-input"></label>
-						<!-- <input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input"> -->
+						<input name="q" class="form-control search-input" placeholder="HOW DO I..." type="search" id="search-input">
+						<button type="submit">&#xf002;</button>
 					</form>
 				</div><!-- /#search -->
 			</li>
