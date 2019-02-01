@@ -170,18 +170,20 @@
 
 <section id="lwp">
 	<img src="./_assets_/images/live-work-play.jpg">
-	<a id="live" href="./">
-		<img src="./_assets_/images/live.jpg">
-		<h2>Live</h2>
-	</a>
-	<a id="work" href="./">
-		<img src="./_assets_/images/work.jpg">
-		<h2>Work</h2>
-	</a>
-	<a id="play" href="./">
-		<img src="./_assets_/images/play.jpg">
-		<h2>Play</h2>
-	</a>
+	<div>
+		<a id="live" href="./">
+			<img src="./_assets_/images/live.jpg">
+			<h2>Live</h2>
+		</a>
+		<a id="work" href="./">
+			<img src="./_assets_/images/work.jpg">
+			<h2>Work</h2>
+		</a>
+		<a id="play" href="./">
+			<img src="./_assets_/images/play.jpg">
+			<h2>Play</h2>
+		</a>
+	</div>
 </section><!-- #live-work-play -->
 
 <section id="info">
@@ -211,7 +213,7 @@
 	<img src="./_assets_/images/footer-links-whitespace.png">
 	<div class="container">
 		<div class="row">
-			<div id="county-departments" class="col-md-3 col-xs-6">
+			<div id="county-departments" class="col-md-3 col-sm-6">
 				<h2>County Departments</h2>
 				<ul>
 					<li><a href="./">Board of Commissioners</a></li>
@@ -223,7 +225,7 @@
 					<li><a href="./">Courts</a></li>
 				</ul>
 			</div>
-			<div id="county-departments-cont" class="col-md-3 col-xs-6">
+			<div id="county-departments-cont" class="col-md-3 col-sm-6">
 				<h2>County Departments</h2>
 				<ul>
 					<li><a href="./">Drain Commissioner</a></li>
@@ -235,7 +237,7 @@
 				</ul>
 			</div>
 			<div class="clearfix visible-xs visible-sm"></div>
-			<div id="quicklinks" class="col-md-3 col-xs-6">
+			<div id="quicklinks" class="col-md-3 col-sm-6">
 				<h2>Quicklinks</h2>
 				<ul>
 					<li><a href="./">Documents</a></li>
@@ -245,7 +247,7 @@
 					<li><a href="./">Contact Information</a></li>
 				</ul>
 			</div>
-			<div id="contact" class="col-md-3 col-xs-6">
+			<div id="contact" class="col-md-3 col-sm-6">
 				<div id="contact-us">
 					<h2>Contact Us</h2>
 					<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
@@ -261,7 +263,7 @@
 </main>
 
 <footer class="text-center">
-	<p>powered by <span>revize.</span> | <a class="login" href="./">login</a></p>
+	<p>powered by <a href="https://www.revize.com/">revize.</a> | <a class="login" href="./">login</a></p>
 </footer>
 	
 		<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
