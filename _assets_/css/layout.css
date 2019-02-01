@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: Dickinson County, MI
-	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
+	Author Design: Alex Parent
 	Front-end Developer: Chris Yang
 	Author URI: http://www.revize.com/
 	Date: January 29, 2019
