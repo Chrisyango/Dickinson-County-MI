@@ -67,14 +67,6 @@
 
 	// Menu Arrows
 	$("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
-	// $("#nav > li > ul > li:has(ul)").addClass('second-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
-
-	// Custom nav function that adds box shadow to current nav element
-	// $("#nav > li:has(ul)").hover(function() {
-	// 	$(this).css('box-shadow', 'inset 0px -5px 0px #f7f088');
-	// }, function() {
-	// 	$(this).css('box-shadow', 'none');
-	// });
 
 	// Menu Toggles
 	$("#nav >li:has(ul)").children("a,span").append('<i class="fa fa-angle-down toggle">');
@@ -281,7 +273,26 @@
 	if(typeof $.fn.owlCarousel !== "undefined"){
 		var quickLinksCount = $('.quick-link').length;
 		$(".owl-carousel").owlCarousel({
-			items: (quickLinksCount >= 5 ? 5 : quickLinksCount)
+			loop: false,
+			responsiveClass: true,
+			nav: true,
+			navText: ['<i class="fa fa-angle-left fa-3x"></i>', '<i class="fa fa-angle-right fa-3x"></i>'],
+			responsive: {
+				0: {
+					items: 1
+				},
+				500: {
+					items: 2
+				},
+				750: {
+					items: 3
+				},
+				1000: {
+					items: 5,
+					nav: false
+				}
+			}
+			// items: (quickLinksCount >= 5 ? 5 : quickLinksCount)
 		});
 	}
 

@@ -169,6 +169,7 @@
 </section><!-- #welcome -->
 
 <section id="lwp">
+	<img src="./_assets_/images/live-work-play.jpg">
 	<a id="live" href="./">
 		<img src="./_assets_/images/live.jpg">
 		<h2>Live</h2>
@@ -186,19 +187,19 @@
 <section id="info">
 	<div class="container">
 		<div class="row text-center">
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/users.png"></div>
 				<h2><span>27,472</span><br>population</h2>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/rulers-combined.png"></div>
 				<h2><span>220,000</span><br>acres of public land</h2>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/tint.png"></div>
 				<h2><span>6,400</span><br>acres of lakes</h2>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/leaf.png"></div>
 				<h2><span>30+</span><br>parks & campgrounds</h2>
 			</div>
@@ -207,11 +208,10 @@
 </section><!-- #info -->
 
 <section id="footer-links">
-	<div id="footer-links-overlay"></div>
 	<img src="./_assets_/images/footer-links-whitespace.png">
 	<div class="container">
 		<div class="row">
-			<div id="county-departments" class="col-md-3">
+			<div id="county-departments" class="col-md-3 col-xs-6">
 				<h2>County Departments</h2>
 				<ul>
 					<li><a href="./">Board of Commissioners</a></li>
@@ -223,7 +223,7 @@
 					<li><a href="./">Courts</a></li>
 				</ul>
 			</div>
-			<div id="county-departments-cont" class="col-md-3">
+			<div id="county-departments-cont" class="col-md-3 col-xs-6">
 				<h2>County Departments</h2>
 				<ul>
 					<li><a href="./">Drain Commissioner</a></li>
@@ -234,7 +234,8 @@
 					<li><a href="./">Ford Airport</a></li>
 				</ul>
 			</div>
-			<div id="quicklinks" class="col-md-3">
+			<div class="clearfix visible-xs visible-sm"></div>
+			<div id="quicklinks" class="col-md-3 col-xs-6">
 				<h2>Quicklinks</h2>
 				<ul>
 					<li><a href="./">Documents</a></li>
@@ -244,14 +245,14 @@
 					<li><a href="./">Contact Information</a></li>
 				</ul>
 			</div>
-			<div id="contact" class="col-md-3">
+			<div id="contact" class="col-md-3 col-xs-6">
 				<div id="contact-us">
-				<h2>Contact Us</h2>
-				<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
+					<h2>Contact Us</h2>
+					<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
 				</div>
 				<div id="mailing-address">
-				<h2>Mailing Address</h2>
-				<p>PO Box 609<br>Iron Mountain MI 49801</p>
+					<h2>Mailing Address</h2>
+					<p>PO Box 609<br>Iron Mountain MI 49801</p>
 				</div>
 			</div>
 		</div>
