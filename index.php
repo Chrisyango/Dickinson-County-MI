@@ -41,7 +41,7 @@
 <header>
 <nav class="nav navbar-fixed-top">
 	<div>
-		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png"></a>
+		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png" alt="Dickinson County, MI"></a>
 		<div id="nav-toggle" class="pull-right fa fa-bars active">
 			<span class="sr-only">Toggle navigation</span>
 		</div><!-- nav-toggle -->
@@ -128,7 +128,7 @@
 <section id="slider">
 	<ul class="bxslider">
 		<li style="background:url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;">
-			<img src="./_assets_/images/hero-whitespace.png">
+			<img src="./_assets_/images/hero-whitespace.png" alt="Whitespace">
 			<h1>
 				<span>Explore</span>
 				Dickinson
@@ -141,23 +141,23 @@
 <section id="quick-links" class="text-center">
 	<div class="owl-carousel">
 		<a href="./" class="quick-link">
-			<img src="./_assets_/images/document.png" alt="" class="quick-link-icon">
+			<img src="./_assets_/images/document.png" alt="Document" class="quick-link-icon">
 			<h2 class="quick-link-title">Documents</h2>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
-			<img src="./_assets_/images/tick-done.png" alt="" class="quick-link-icon">
+			<img src="./_assets_/images/tick-done.png" alt="Checkmark" class="quick-link-icon">
 			<h2 class="quick-link-title">Elections</h2>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
-			<img src="./_assets_/images/calendar.png" alt="" class="quick-link-icon">
+			<img src="./_assets_/images/calendar.png" alt="Calendar" class="quick-link-icon">
 			<h2 class="quick-link-title">Calendar</h2>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
-			<img src="./_assets_/images/environment.png" alt="" class="quick-link-icon">
+			<img src="./_assets_/images/environment.png" alt="Tree" class="quick-link-icon">
 			<h2 class="quick-link-title">Parks & Rec</h2>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
-			<img src="./_assets_/images/communication.png" alt="" class="quick-link-icon">
+			<img src="./_assets_/images/communication.png" alt="Talk Bubble" class="quick-link-icon">
 			<h2 class="quick-link-title">Contact Us</h2>
 		</a><!--/.quick-link-->
 	</div>
@@ -169,18 +169,18 @@
 </section><!-- #welcome -->
 
 <section id="lwp">
-	<img src="./_assets_/images/live-work-play.jpg">
+	<img src="./_assets_/images/live-work-play.jpg" alt="Land and Ocean">
 	<div>
 		<a id="live" href="./">
-			<img src="./_assets_/images/live.jpg">
+			<img src="./_assets_/images/live.jpg" alt="Mom carrying son">
 			<h2>Live</h2>
 		</a>
 		<a id="work" href="./">
-			<img src="./_assets_/images/work.jpg">
+			<img src="./_assets_/images/work.jpg" alt="Developers working">
 			<h2>Work</h2>
 		</a>
 		<a id="play" href="./">
-			<img src="./_assets_/images/play.jpg">
+			<img src="./_assets_/images/play.jpg" alt="Someone snowboarding">
 			<h2>Play</h2>
 		</a>
 	</div>
@@ -190,19 +190,19 @@
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-md-3 col-xs-6">
-				<div><img src="./_assets_/images/users.png"></div>
+				<div><img src="./_assets_/images/users.png" alt="People"></div>
 				<h2><span>27,472</span><br>population</h2>
 			</div>
 			<div class="col-md-3 col-xs-6">
-				<div><img src="./_assets_/images/rulers-combined.png"></div>
+				<div><img src="./_assets_/images/rulers-combined.png" alt="Two rulers combined in an L-shape"></div>
 				<h2><span>220,000</span><br>acres of public land</h2>
 			</div>
 			<div class="col-md-3 col-xs-6">
-				<div><img src="./_assets_/images/tint.png"></div>
+				<div><img src="./_assets_/images/tint.png" alt="Water drop"></div>
 				<h2><span>6,400</span><br>acres of lakes</h2>
 			</div>
 			<div class="col-md-3 col-xs-6">
-				<div><img src="./_assets_/images/leaf.png"></div>
+				<div><img src="./_assets_/images/leaf.png" alt="Leaf"></div>
 				<h2><span>30+</span><br>parks & campgrounds</h2>
 			</div>
 		</div>
@@ -210,7 +210,7 @@
 </section><!-- #info -->
 
 <section id="footer-links">
-	<img src="./_assets_/images/footer-links-whitespace.png">
+	<img src="./_assets_/images/footer-links-whitespace.png" alt="Whitespace">
 	<div class="container">
 		<div class="row">
 			<div id="county-departments" class="col-md-3 col-sm-6">
@@ -265,13 +265,6 @@
 <footer class="text-center">
 	<p>powered by <a href="https://www.revize.com/">revize.</a> | <a class="login" href="./">login</a></p>
 </footer>
-	
-		<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<h1>Alert Title 30 characters Max</h1>
-			<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
-			<p><a href="#" class="btn">Read More</a></p>
-		</div><!-- /.alert -->
 </div><!-- /.main-wrap -->
 
 

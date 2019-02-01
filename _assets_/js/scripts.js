@@ -271,7 +271,10 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		var quickLinksCount = $('.quick-link').length;
+		let quickLinksCount = $('.quick-link').length;
+		const itemCount = function(num) {
+			return (quickLinksCount >= num ? num : quickLinksCount);
+		}
 		$(".owl-carousel").owlCarousel({
 			loop: false,
 			responsiveClass: true,
@@ -279,16 +282,16 @@
 			navText: ['<i class="fa fa-angle-left fa-3x"></i>', '<i class="fa fa-angle-right fa-3x"></i>'],
 			responsive: {
 				0: {
-					items: 1
+					items: itemCount(1)
 				},
 				500: {
-					items: 2
+					items: itemCount(2)
 				},
 				750: {
-					items: 3
+					items: itemCount(3)
 				},
 				1000: {
-					items: 5,
+					items: itemCount(5),
 					nav: false
 				}
 			}
