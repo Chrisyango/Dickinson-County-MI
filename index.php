@@ -271,6 +271,7 @@
 <!-- Share widget make into an include file -->
 <button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
 	<i class="fa fa-share-alt"></i>
+	<span>SHARE</span>
 </button>
 
 <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModal">
