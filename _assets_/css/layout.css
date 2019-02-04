@@ -298,15 +298,19 @@ nav {padding: 0 25px;}
 	background-image: url('../images/live-work-play.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	right: 0;
-	position: absolute;
 }
-#lwp>div>a {position: relative; border-radius: 5px;}
-#lwp>div>a>img {border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222;}
+#lwp>div>a {position: relative; border-radius: 5px; top: 350px;}
+#lwp>div>a>img {border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222; width: 450px;}
 #lwp>div>a>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000; letter-spacing: 10px;}
+#live {left: 70px;}
+#work {z-index: 2;}
+#work>img {transform: scale(1.15);}
+#play {right: 70px;}
 
 /* ---------------- Info ---------------- */
 #info {margin: 250px 0 100px 0; padding: 0 25px}
@@ -440,11 +444,12 @@ footer>p>a {color: #fff !important;}
 	.owl-prev {position: absolute; top: 25%; left: -73px;}
 	.owl-next {position: absolute; top: 25%; right: -73px;}
 
-	#lwp>div>a {width: 370px;}
+	#lwp {height: 600px;}
+	#lwp>div>a>img {width: 370px;}
+	#live {left: 50px;}
+	#play {right: 50px;}
 	#lwp>div>a:nth-child(2) {width: 430px;}
 	#lwp>div>a>h2 {font-size: 60px;}
-	#live {top: 55%; left: 12%;}
-	#play {top: 55%; right: 12%;}
 
 	#info {margin-bottom: 25px;}
 	#info>div>div>div>h2 {font-size: 20px; margin: 10px;}
@@ -456,24 +461,17 @@ footer>p>a {color: #fff !important;}
 	#logo {width: 315px; padding: 21.5px 0;}
 	#nav>li>a {padding: 38.5px 3px;}
 
-	#lwp>div>a {width: 330px;}
-	#lwp>div>a:nth-child(2) {width: 380px;}
+	#lwp {height: 450px;}
+	#lwp>div>a {top: 250px;}
+	#lwp>div>a>img {width: 300px;}
+	#lwp>div>a>h2 {font-size: 60px;}
 	#lwp>div>a>h2 {font-size: 50px; letter-spacing: 1.5px;}
-	#live {top: 55%; left: 7%;}
-	#play {top: 55%; right: 7%;}
-
 }
 
 @media only screen and (min-width:992px) {
 	
 	#nav>li>ul>li>ul {margin-left: 3px;}
 	#nav>li>a:hover {box-shadow: inset 0px -5px 0px #f7f088;}
-
-	#lwp>div>a {position: absolute;}
-	#lwp>div>a>img {width: 100%;}
-	#live {left: 8%; top: 55%;}
-	#work {left: 50%; top: 50%; transform: translate(-50%, 0); z-index: 2;}
-	#play {right: 8%; top: 55%;}
 
 	#flyout,#nav{display:block!important}
 
@@ -529,11 +527,12 @@ footer>p>a {color: #fff !important;}
 	#info>div>div>div>div>img {margin-top: 25px; width: 60px;}
 
 	#lwp {margin-bottom: 300px;}
-	#lwp>div {width: 80%; margin: 0 auto;}
-	#lwp>div>a>img {width: 45%; margin: 2%;}
-	#live,
-	#work {top: 200px; left: 0;}
-	#play {top: 200px; right: 0;}
+	#lwp>div>a {top: 150px;}
+	#lwp>div>a,
+	#lwp>div>a>img {margin: 30px;}
+	#live {left: 0px;}
+	#work>img {transform:unset;}
+	#play {right: 0px;}
 
 	#flyout{display:none}
 	#flyout li{}
@@ -561,6 +560,8 @@ footer>p>a {color: #fff !important;}
 	#welcome h2>span {font-size: 30px;}
 	#welcome p {width: 320px; font-size: 15px;}
 
+	/* #lwp>div>a>img {width: 100%; margin-bottom: 30px;} */
+
 	.floating-alert{width:auto;right:0;left:0;border:0;bottom:0;border-radius:0;padding-left:15px;padding-right:15px}
 	.floating-alert{font-size:12px}
 	.floating-alert h1{margin-bottom:10px;font-size:14px}
@@ -584,8 +585,6 @@ footer>p>a {color: #fff !important;}
 
 	#info>div>div>div>h2 {font-size: 18px; margin: 10px;}
 	#info>div>div>div>h2>span {font-size: 28px;}
-
-	#lwp>div>a>img {width: 100%; margin-bottom: 30px;}
 }
 
 @media print {

@@ -166,8 +166,8 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section><!-- #welcome -->
 
-<section id="lwp" >
-	<div>
+<section id="lwp">
+	<div class="text-center">
 		<a id="live" href="./">
 			<img src="./_assets_/images/live.jpg" alt="Mom carrying son">
 			<h2>Live</h2>
@@ -180,7 +180,7 @@
 			<img src="./_assets_/images/play.jpg" alt="Someone snowboarding">
 			<h2>Play</h2>
 		</a>
-	</div>
+	</div><!-- .text-center -->
 </section><!-- #live-work-play -->
 
 <section id="info">
