@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: Dickinson County, MI
-	Author Design: Alex Parent
+	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
 	Front-end Developer: Chris Yang
 	Author URI: http://www.revize.com/
 	Date: January 29, 2019
@@ -213,7 +213,9 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 #main
 
 -----------------------------------------*/
-body{overflow-x:hidden; max-width: 1600px; margin: 0 auto;}
+header{position:fixed;z-index:200;left:0;width:100%;top:0}
+#search-toggle{color:#f7f088}
+
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #nav-toggle,
 .toggle,
@@ -238,8 +240,7 @@ body{overflow-x:hidden; max-width: 1600px; margin: 0 auto;}
 
 
 /* ---------------- Nav ---------------- */
-nav {background-color: #27344d; max-width: 1600px; margin: 0 auto;}
-nav>div {padding: 0 60px;}
+nav {background-color: #27344d;}
 #logo {width: 477px; padding: 13px 0px;}
 a {text-decoration: none;}
 a:hover {text-decoration: none;}
@@ -248,29 +249,31 @@ ul>li>a {text-decoration: none;}
 #nav>li {display: inline-block; margin-bottom: 0;}
 #nav>li>a {display: block; color: #fff; padding: 42px 10px; text-transform: uppercase; font-weight: 700; font-size: 18px;}
 .fa-search {color: #f7f088;}
-#nav>li>ul {display: none; position: absolute; right: 7%; margin-top: 0px; padding: 30px; background-color: #546a92; width: 910px; height: 300px;}
+#nav>li>ul {display: none; position: absolute; right: 7%; margin-top: 0px; padding: 30px; background-color: #546a92; width: 910px; height: 300px; z-index: 80;}
 #nav>li>ul>li>a {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase;}
 #nav>li>ul>li>ul>li>a {color: #fff; font-size: 14px;}
 #nav>li:hover>ul{display:block}
 #search>form {position: relative;}
 #search>form>label {display: none;}
-#search>form>input {border: 1px solid transparent; background-color: transparent; width: 115px; color: #fff; transition: none;}
+#search>form>input {}
 #search>form>input[type='search'] {padding: 5px}
 #search>form>input:focus {border: 1px solid #fff; border-radius: 5px 0px 0px 5px; margin: 0;}
 #search>form>input:focus + button {border: 1px solid #fff;}
 #search>form>input::placeholder {color: #fff; font-size: 18px; font-weight: 700;}
-#search>form>button {font-family: FontAwesome, Arial; font-style: normal; font-size: 18px; padding: 7px 10px; background-color: transparent; color: #f7f088 !important; border: 1px solid transparent; border-radius: 0 5px 5px 0; margin-left: -3px;}
+
+#search{position:absolute;right:0;top:120%}
 
 /* ---------------- Hero ---------------- */
+#slider .container.text-center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 80;}
+#slider .container.text-center>h1 {padding: 0 25px; color: #fff; font-size: 120px; font-weight: 700; text-transform: uppercase; text-shadow: 2px 2px 10px #000;}
+#slider .container.text-center>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; font-weight: 300; text-transform: none; position: absolute; bottom: -20px; right: 270px}
+#slider .container.text-center>h1>span:first-of-type {top: -30px; left: -160px;}
 @font-face {
 	font-family: wildYouth;
 	src: url(../fonts/WildYouth-Regular.otf_/WildYouth-Regular.otf);
   }
-#slider {position: relative; height: 95vh; margin-top: 80px;}
-.bxslider>li>img {position: absolute; bottom: 0px; left: 0;}
-.bxslider>li>h1 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 0 25px; color: #fff; font-size: 120px; font-weight: 700; text-transform: uppercase; text-shadow: 2px 2px 10px #000;}
-.bxslider>li>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; font-weight: 300; text-transform: none; position: absolute; bottom: -50px; right: 45px}
-.bxslider>li>h1>span:first-of-type {top: -50px; left: 45px;}
+#slider>img{position:absolute;left:0;width:100%;bottom:0;z-index:80}
+#slider {position: relative;height:800px; margin-top: 80px;}
 
 
 /* ---------------- Quick Links ---------------- */
@@ -376,7 +379,7 @@ footer>p>a {color: #fff !important;}
 .btn-google:hover{border-color:#D34836}
 .btn-reddit:hover{border-color:#ff5700}
 .btn-lg{font-size:16px;padding:14px 30px;border:0;border-radius:3px}
-.floating-share-btn{position:fixed;z-index:99999;top:40%;right:0;height:50px;width:50px;border-radius:0;border:0;background:#27344d!important;color:#fff!important; font-weight: 700; font-size: 14px; padding:0;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn{position:fixed;z-index:99999;top:40%;right:0;height:50px;width:50px;border-radius:0;border:0;background:#F26A39!important;color:#fff!important;line-height:50px;padding:0;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
 
 /* -----------------------------------------
 
@@ -486,7 +489,7 @@ footer>p>a {color: #fff !important;}
 	#nav{display:none; width: 100%;}
 	#nav li{float:none;display:block;}
 	#nav li a,
-	#nav li span{padding:16px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li span{padding:15px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#nav li input[type="search"] {margin: 15px 25px;}
 	#nav li input::placeholder {font-size: 14px;}
 	#search>form>button {margin-left: -28px; margin-top: 15px;}
@@ -520,7 +523,7 @@ footer>p>a {color: #fff !important;}
 	#info>div>div>div>div {width: 100px; height: 100px;}
 	#info>div>div>div>div>img {margin-top: 25px; width: 60px;}
 
-	#lwp>div {width: 100%; margin: -150px auto; margin-bottom: 0;}
+	#lwp>div {width: 80%; margin: -150px auto; margin-bottom: 0;}
 	#lwp>div>a>img {width: 45%; margin: 2%;}
 	#live {top: 0; left: 0;}
 	#work {top: 0; left: 0;}
@@ -541,9 +544,9 @@ footer>p>a {color: #fff !important;}
 	/* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:767px) {
 
-	.bxslider>li>h1 {color: #fff; font-size: 80px;}
-	.bxslider>li>h1>span {font-size: 40px; bottom: -30px; right: 37px}
-	.bxslider>li>h1>span:first-of-type {top: -30px; left: 37px;}
+	#slider .container.text-center>h1 {color: #fff; font-size: 80px;}
+	#slider .container.text-center>h1>span {font-size: 40px; bottom: 0px; right: 50px}
+	#slider .container.text-center>h1>span:first-of-type {top: -10px; left: -240px;}
 
 	#welcome {padding: 0 25px;}
 	#welcome>h2 {font-size: 24px;}
@@ -569,15 +572,14 @@ footer>p>a {color: #fff !important;}
 	#logo {width: 260px; padding: 21.5px 0;}
 	#nav-toggle{margin-top: 20px;}
 
-	.bxslider>li>h1 {color: #fff; font-size: 60px; text-shadow: 2px 2px 10px #000;}
-	.bxslider>li>h1>span {font-size: 35px; bottom: -25px; right: 35px}
-	.bxslider>li>h1>span:first-of-type {top: -25px; left: 35px;}
+	#slider .container.text-center>h1 {color: #fff; font-size: 60px; text-shadow: 2px 2px 10px #000;}
+	#slider .container.text-center>h1>span {font-size: 35px; bottom: 0px; right: 55px}
+	#slider .container.text-center>h1>span:first-of-type {top: -5px; left: -150px;}
 
 	#info>div>div>div>h2 {font-size: 18px; margin: 10px;}
 	#info>div>div>div>h2>span {font-size: 28px;}
 
-	#lwp>div {padding: 25px;}
-	#lwp>div>a>img {width: 100%; margin: 0 0 30px 0;}
+	#lwp>div>a>img {width: 100%; margin-bottom: 30px;}
 }
 
 @media print {

@@ -38,15 +38,13 @@
 <body id="homepage">
 
 <div class="main-wrap">
-<header>
-<nav class="nav navbar-fixed-top">
-	<div>
-		<a id="logo" class="pull-left" href="./"><img src="./_assets_/images/logo.png" alt="Dickinson County, MI"></a>
-		<div id="nav-toggle" class="pull-right fa fa-bars active">
-			<span class="sr-only">Toggle navigation</span>
-		</div><!-- nav-toggle -->
+
+<header class="clearfix">
+	<a href="./" class="pull-left" id="logo"><img src="_assets_/images/logo.png" alt="navigation logo"></a>
+	<nav class="clearfix">
+		<div id="search-toggle" class="pull-right fa fa-search"></div>
 		<ul id="nav" class="pull-right">
-			<li><a href="./">Home</a></li>
+		<li><a href="./">Home</a></li>
 			<li>
 				<a href="./">Government</a>
 				<ul>
@@ -109,33 +107,32 @@
 			<li><a href="./">Residents</a></li>
 			<li><a href="./">Businesses</a></li>
 			<li><a href="./">Visitors</a></li>
-			<!-- <li><a href="./">How Do I...</a></li> -->
-			<li>
-				<div id="search">
-					<form class="search-form" method="get" action="search.php">
-						<label class="fa fa-search fa-lg" for="search-input"></label>
-						<input name="q" class="form-control search-input" placeholder="HOW DO I..." type="search" id="search-input">
-						<button type="submit">&#xf002;</button>
-					</form>
-				</div><!-- /#search -->
-			</li>
-		</ul><!-- .nav-links -->
-	</div>
-</nav><!-- .nav.navbar -->
+			<li><a href="./">How Do I...</a></li>
+		</ul>
+	</nav>
+	<div id="search">
+		<form class="search-form" method="get" action="search.php">
+			<label class="fa fa-search fa-lg" for="search-input"></label>
+			<input name="q" class="form-control search-input" placeholder="Enter keywords..." type="search" id="search-input">
+			<button type="submit">Go</button>
+		</form>
+	</div><!-- /#search -->
 </header>
 
 <main>
 <section id="slider">
 	<ul class="bxslider">
 		<li style="background:url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;">
-			<img src="./_assets_/images/hero-whitespace.png" alt="Whitespace">
-			<h1>
-				<span>Explore</span>
-				Dickinson
-				<span>County</span>
-			</h1>
 		</li>
 	</ul><!--/.bxslider-->
+	<div class="container text-center">
+		<h1>
+			<span>Explore</span>
+			Dickinson
+			<span>County</span>
+		</h1>
+	</div>
+	<img src="./_assets_/images/hero-whitespace.png" alt="Whitespace">
 </section><!--/#slider-->
 
 <section id="quick-links" class="text-center">
