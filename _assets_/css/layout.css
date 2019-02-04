@@ -520,7 +520,7 @@ footer>p>a {color: #fff !important;}
 	#info>div>div>div>div {width: 100px; height: 100px;}
 	#info>div>div>div>div>img {margin-top: 25px; width: 60px;}
 
-	#lwp>div {width: 80%; margin: -150px auto; margin-bottom: 0;}
+	#lwp>div {width: 100%; margin: -150px auto; margin-bottom: 0;}
 	#lwp>div>a>img {width: 45%; margin: 2%;}
 	#live {top: 0; left: 0;}
 	#work {top: 0; left: 0;}
@@ -576,7 +576,8 @@ footer>p>a {color: #fff !important;}
 	#info>div>div>div>h2 {font-size: 18px; margin: 10px;}
 	#info>div>div>div>h2>span {font-size: 28px;}
 
-	#lwp>div>a>img {width: 100%; margin-bottom: 30px;}
+	#lwp>div {padding: 25px;}
+	#lwp>div>a>img {width: 100%; margin: 0 0 30px 0;}
 }
 
 @media print {
