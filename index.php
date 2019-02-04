@@ -40,9 +40,9 @@
 <div class="main-wrap">
 
 <header class="clearfix">
-	<a href="./" class="pull-left" id="logo"><img src="_assets_/images/logo.png" alt="navigation logo"></a>
 	<nav class="clearfix">
-		<div id="search-toggle" class="pull-right fa fa-search"></div>
+		<a href="./" class="pull-left" id="logo"><img src="_assets_/images/logo.png" alt="navigation logo"></a>
+		<div id="nav-toggle" class="fa fa-bars pull-right"></div>
 		<ul id="nav" class="pull-right">
 		<li><a href="./">Home</a></li>
 			<li>
@@ -108,6 +108,7 @@
 			<li><a href="./">Businesses</a></li>
 			<li><a href="./">Visitors</a></li>
 			<li><a href="./">How Do I...</a></li>
+			<li id="search-toggle" class="fa fa-search"></li>
 		</ul>
 	</nav>
 	<div id="search">
@@ -157,16 +158,15 @@
 			<img src="./_assets_/images/communication.png" alt="Talk Bubble" class="quick-link-icon">
 			<h2 class="quick-link-title">Contact Us</h2>
 		</a><!--/.quick-link-->
-	</div>
+	</div><!-- .owl-carousel -->
 </section>
 
 <section id="welcome" class="text-center">
-	<h2>Welcome to <br><span>Dickinson County</span></h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2>Welcome to <br><span>Dickinson County</span></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section><!-- #welcome -->
 
-<section id="lwp">
-	<img src="./_assets_/images/live-work-play.jpg" alt="Land and Ocean">
+<section id="lwp" >
 	<div>
 		<a id="live" href="./">
 			<img src="./_assets_/images/live.jpg" alt="Mom carrying son">
