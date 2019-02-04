@@ -486,7 +486,7 @@ footer>p>a {color: #fff !important;}
 	#nav{display:none; width: 100%;}
 	#nav li{float:none;display:block;}
 	#nav li a,
-	#nav li span{padding:15px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li span{padding:16px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#nav li input[type="search"] {margin: 15px 25px;}
 	#nav li input::placeholder {font-size: 14px;}
 	#search>form>button {margin-left: -28px; margin-top: 15px;}
