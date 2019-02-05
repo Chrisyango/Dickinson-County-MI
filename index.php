@@ -167,20 +167,22 @@
 </section><!-- #welcome -->
 
 <section id="lwp">
-	<div class="text-center">
-		<a id="live" href="./">
-			<img src="./_assets_/images/live.jpg" alt="Mom carrying son">
-			<h2>Live</h2>
-		</a>
-		<a id="work" href="./">
-			<img src="./_assets_/images/work.jpg" alt="Developers working">
-			<h2>Work</h2>
-		</a>
-		<a id="play" href="./">
-			<img src="./_assets_/images/play.jpg" alt="Someone snowboarding">
-			<h2>Play</h2>
-		</a>
-	</div><!-- .text-center -->
+	<div class="text-center container">
+		<div class="lwp-carousel">
+			<a id="work" href="./">
+				<img src="./_assets_/images/work.jpg" alt="Developers working">
+				<h2>Work</h2>
+			</a><!-- #work -->
+			<a id="play" href="./">
+				<img src="./_assets_/images/play.jpg" alt="Someone snowboarding">
+				<h2>Play</h2>
+			</a><!-- #play -->
+			<a id="live" href="./">
+				<img src="./_assets_/images/live.jpg" alt="Mom carrying son">
+				<h2>Live</h2>
+			</a><!-- #live -->
+		</div><!-- .owl-carousel -->
+	</div><!-- .text-center.container -->
 </section><!-- #live-work-play -->
 
 <section id="info">
