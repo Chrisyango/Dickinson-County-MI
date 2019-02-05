@@ -43,6 +43,7 @@
 	<nav class="clearfix">
 		<a href="./" class="pull-left" id="logo"><img src="_assets_/images/logo.png" alt="navigation logo"></a>
 		<div id="nav-toggle" class="fa fa-bars pull-right"></div>
+		<div id="search-toggle" class="fa fa-search pull-right"></div>
 		<ul id="nav" class="pull-right">
 		<li><a href="./">Home</a></li>
 			<li>
@@ -108,7 +109,6 @@
 			<li><a href="./">Businesses</a></li>
 			<li><a href="./">Visitors</a></li>
 			<li><a href="./">How Do I...</a></li>
-			<li id="search-toggle" class="fa fa-search"></li>
 		</ul>
 	</nav>
 	<div id="search">
@@ -137,7 +137,8 @@
 </section><!--/#slider-->
 
 <section id="quick-links" class="text-center">
-	<div class="owl-carousel">
+	<div class="container">
+		<div class="owl-carousel">
 		<a href="./" class="quick-link">
 			<img src="./_assets_/images/document.png" alt="Document" class="quick-link-icon">
 			<h4 class="quick-link-title">Documents</h4>
@@ -159,11 +160,20 @@
 			<h4 class="quick-link-title">Contact Us</h4>
 		</a><!--/.quick-link-->
 	</div><!-- .owl-carousel -->
+	</div>
 </section>
 
 <section id="welcome" class="text-center">
-			<h2>Welcome to <br><span>Dickinson County</span></h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Welcome to <br><strong>Dickinson County</strong></h2>
+				<div id="welcome-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div><!--/#welcome-text-->
+			</div>
+		</div>
+	</div>
 </section><!-- #welcome -->
 
 <section id="lwp">
@@ -205,11 +215,11 @@
 	</div>
 </section><!-- #info -->
 
-<section id="footer-links">
+<section id="footer-links" style="background:url(_assets_/images/footer-links.jpg) center no-repeat;background-size:cover">
 	<img src="./_assets_/images/footer-links-whitespace.png" alt="Whitespace">
 	<div class="container">
 		<div class="row">
-			<div id="county-departments" class="col-md-3 col-sm-6">
+			<div class="col-md-3">
 				<h5>County Departments</h5>
 				<ul>
 					<li><a href="./">Board of Commissioners</a></li>
@@ -221,7 +231,7 @@
 					<li><a href="./">Courts</a></li>
 				</ul>
 			</div>
-			<div id="county-departments-cont" class="col-md-3 col-sm-6">
+			<div class="col-md-3">
 				<h5>County Departments</h5>
 				<ul>
 					<li><a href="./">Drain Commissioner</a></li>
@@ -232,8 +242,7 @@
 					<li><a href="./">Ford Airport</a></li>
 				</ul>
 			</div>
-			<div class="clearfix visible-xs visible-sm"></div>
-			<div id="quicklinks" class="col-md-3 col-sm-6">
+			<div class="col-md-3">
 				<h5>Quicklinks</h5>
 				<ul>
 					<li><a href="./">Documents</a></li>
@@ -243,7 +252,7 @@
 					<li><a href="./">Contact Information</a></li>
 				</ul>
 			</div>
-			<div id="contact" class="col-md-3 col-sm-6">
+			<div id="contact" class="col-md-3">
 				<div id="contact-us">
 					<h5>Contact Us</h5>
 					<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
@@ -262,6 +271,13 @@
 	<p>powered by <a href="https://www.revize.com/">revize.</a> | <a class="login" href="./">login</a></p>
 </footer>
 </div><!-- /.main-wrap -->
+
+<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	<h6>Alert Title 30 characters Max</h6>
+	<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
+	<p><a href="#" class="btn">Read More</a></p>
+</div><!-- /.alert -->
 
 
 <!-- Share widget make into an include file -->

@@ -47,6 +47,11 @@ hr{border:solid #ccc;border-width:1px 0 0;clear:both;margin:10px 0 30px;height:0
   font-style:normal;
 }
 
+@font-face {
+	font-family: 'Wild Youth';
+	src: url(../fonts/WildYouth-Regular.otf_/WildYouth-Regular.otf);
+  }
+
 /* -----------------------------------------
 
 #links
@@ -180,7 +185,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 .floating-alert{position:fixed;z-index:99999;bottom:10px;margin:0;right:10px;border:3px solid #fff;background:#000;background:rgba(0,0,0,.9);box-shadow:0 0 10px rgba(0,0,0,.2);color:#fff;padding:30px;font-size:14px;width:350px;}
-.floating-alert h1{color:#ffc140;margin:0 0 10px;font-family:'Lato', sans-serif;font-weight:bold;text-transform:uppercase;font-size:18px}
+.floating-alert h6{color:#ffc140;margin:0 0 10px;font-family:'Lato', sans-serif;font-weight:bold;text-transform:uppercase;font-size:18px}
 .floating-alert .btn{padding:8px 10px;margin:20px 0 0 0!important}
 .floating-alert .close{padding:0;background:none!important;color:#fff!important;opacity:1;margin-right:20px}
 
@@ -214,53 +219,35 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 header{position:fixed;z-index:200;left:0;width:100%;top:0}
-.container {width: 1420px; max-width: 100%;}
+.container {width:1380px; max-width: 100%;}
 #search-toggle{color:#f7f088}
 
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-#nav-toggle,
-.toggle,
-.toggle2{display:none}
-
-/* Don't forget to accout for span being used in space of a tag for nav items that are not links */
-/*for mega menu addjust as needed*/
-#nav>li>ul {
-    -moz-column-count: 4;
-    -moz-column-gap: 30px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 30px;
-    column-count: 4;
-    column-gap: 30px;
-    padding: 30px;
-}
-#nav>li>ul li{display:inline-block;width:100%; margin: 0;}
-#nav>li>ul li a{display:block}
-/*for mega menu addjust as needed*/
 
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
 
 
 /* ---------------- Nav ---------------- */
-nav {background-color: #27344d; padding: 0 80px;}
-#logo {width: 477px; padding: 13px 0px;}
-a {text-decoration: none;}
-a:hover {text-decoration: none;}
-ul {list-style-type: none; margin-bottom: 0; margin-left: 0; padding-left: 0;}
-ul>li>a {text-decoration: none;}
-#nav>li {display: inline-block; margin-bottom: 0;}
-#nav>li>a {display: block; color: #fff; padding: 42px 10px; text-transform: uppercase; font-weight: 700; font-size: 18px;}
-.fa-search {color: #f7f088;}
-#nav>li>ul {display: none; position: absolute; right: 7%; margin-top: 0px; padding: 30px; background-color: #546a92; width: 910px; height: 300px; z-index: 80;}
-#nav>li>ul>li>a {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase;}
-#nav>li>ul>li>ul>li>a {color: #fff; font-size: 14px;}
-#nav>li:hover>ul{display:block}
-#search{position:absolute;right:55px;top:calc(100% + 10px); display: none;}
-#search-toggle {font-size: 20px; cursor: pointer;}
-#search form {position: relative; margin-right: 83px; width: 250px;}
-#search form label {position: absolute; top: 50%; transform: translateY(-50%); left: 10px; color: #27344d; cursor: text;}
-#search form input[type='search'] {padding: 5px; padding-left: 40px;}
-#search form input {border-radius: 5px 0px 0px 5px; margin: 0;}
-#search form button {border-radius: 0px 5px 5px 0px; margin: 0; padding: 9.5px 20px; position: absolute; top: 0; right: -58px; background-color: #27344d; color: #f7f088!important;}
+nav {background-color: #27344d; padding: 0 101px 0 98px}
+#logo {width: 477px;margin-top:10px}
+#nav>li>ul{display:none}
+#nav{padding:0;margin:0}
+#nav a,#nav span{text-decoration:none;font-size:18px;font-weight:700;color:#fff;text-transform:uppercase;padding:39px 9px;display:block;line-height:normal}
+#nav li{display:inline-block;margin:0}
+
+#nav ul{padding:0;margin:0}
+
+
+.down-arrow{margin-left:7px}
+
+
+
+#search-toggle {font-size: 19px; cursor: pointer;margin:40px 0 0 10px}
+#search{position:absolute;right:100px;top:115px;width:300px;display:none}
+#search form{margin:0}
+#search label{position:absolute;left:10px;top:50%;transform:translateY(-50%)}
+#search button{position:absolute;right:0;top:0}
+#search input{padding:0 100px 0 35px;height:35px}
 
 
 /* ---------------- Hero ---------------- */
@@ -277,22 +264,27 @@ ul>li>a {text-decoration: none;}
 
 
 /* ---------------- Quick Links ---------------- */
-#quick-links {margin: 70px 100px;}
-.quick-link h4 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700; margin-bottom: 0;}
-#quick-links .owl-carousel .owl-item img {width: 75px; margin: 0 auto;}
+#quick-links {margin: 70px 100px;position:relative}
+#quick-links .container{width:1335px}
+#quick-links .owl-carousel:after{content:'';position:absolute;right:0;top:0;bottom:0;background:#fff;width:1px;z-index:1}
+.quick-link h4 {text-transform:uppercase;font-size:18px;letter-spacing:.1em;font-weight:900;color:#686868;margin:}
+.quick-link img{width: 64px !important; margin:0 auto 26px}
 #quick-links .owl-prev {position: absolute; top: 25%; left: -75px;}
 #quick-links .owl-next {position: absolute; top: 25%; right: -75px;}
 
+.quick-link{text-decoration:none;display:block;position:relative}
+.quick-link:after{content:'';position:absolute;right:0;top:0;bottom:0;width:1px;background:url(../images/border.png) top right repeat-y;background-size:auto}
+
 
 /* ---------------- Welcome ---------------- */
-#welcome {margin-top: 100px;}
-#welcome h2 {font-family: wildYouth; font-size: 32px; color: #91b789;}
-#welcome h2>span {font-family: Lato; font-weight: 700; font-size: 42px; text-transform: uppercase; color: #546a92;}
-#welcome p {width: 580px; margin: 0 auto; font-size: 16px;}
+#welcome{margin-bottom:15px}
+#welcome h2{margin:0;font-family:'Wild Youth',sans-serif;font-size:32px;color:#91b789}
+#welcome h2 strong{font-size:42px;color:#546a92;font-family:'Lato',sans-serif;text-transform:uppercase}
+#welcome-text{font-size:16px;line-height:24px;color:#4a4a4a}
 
 
 /* ---------------- Live-Work-Play ---------------- */
-#lwp {position: relative; height: 700px;}
+#lwp {position: relative}
 #lwp:before {
 	content: "";
 	background-image: url('../images/live-work-play.jpg');
@@ -304,7 +296,7 @@ ul>li>a {text-decoration: none;}
 	bottom: 0;
 	right: 0;
 }
-#lwp>.container {position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%); padding: 0 80px;}
+.lwp-carousel{position:relative;bottom:-389px}
 .lwp-carousel a {display: block; height: 470px; border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222;}
 .lwp-carousel a>h3 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000; letter-spacing: 10px;}
 .lwp-carousel .center {z-index: 2; transform: scale(1.2);}
@@ -312,7 +304,7 @@ ul>li>a {text-decoration: none;}
 .lwp-carousel .owl-item {transition: all 0.3s;}
 
 /* ---------------- Info ---------------- */
-#info {margin: 300px 0 100px 0; padding: 0 25px}
+#info {margin:445px 0 100px 0; padding: 0 25px}
 #info .row.text-center>div {padding: 20px 0;}
 #info .row.text-center>div>div {margin: 0 auto; border-radius: 50%; background-color: #546a92; width: 150px; height: 150px;}
 #info img {margin-top: 30px; width: 100px;}
@@ -321,31 +313,22 @@ ul>li>a {text-decoration: none;}
 
 
 /* ---------------- Footer-Links ---------------- */
-#footer-links {position: relative; background-color: #27344d; padding: 0 80px;}
-#footer-links:before {
-	content: "";
-	background-image: url('../images/footer-links.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.15;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-}
-#footer-links>img {position: absolute; top: 0; left: 0; width: 100%;}
-#footer-links>.container {padding: 100px 0 75px 0;}
-#footer-links>.container, .container a {color: #efefef; font-size: 13px;}
-#footer-links>.container h5 {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;}
-#footer-links>.container>.row>div {padding: 5px 15px;}
+#footer-links {position: relative;padding:143px 0 0; color: #fff;}
+#footer-links .container{width:1200px}
+#footer-links:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:10;opacity:.85}
+#footer-links>img{position: absolute; top: 0; left: 0; width: 100%;z-index:30}
+#footer-links h5{margin:0 0 9px;font-size:16px;font-weight:700;color:#f7f088;text-transform:uppercase}
+#footer-links ul{padding:0;margin:0}
+#footer-links li{list-style:none;margin:0}
+#footer-links a{color:#fff;text-decoration:none;display:block;margin-bottom:2px}
+#footer-links *{position:relative;z-index:40}
 
 
 /* ---------------- Footer ---------------- */
 footer {background-color: #546a92; padding: 15px 25px; color: #fff;}
 footer>p {font-size: 13px; font-weight: 700; text-transform: uppercase; margin: 0; padding: 0;}
 footer>p>a:first-child {font-family:'Roboto', sans-serif; font-size: 18px; text-transform: lowercase;}
-footer>p>a {color: #fff !important;}
+footer>p>a {color: #fff !important; text-decoration: none;}
 
 
 /* -----------------------------------------
@@ -433,48 +416,43 @@ footer>p>a {color: #fff !important;}
 #media queries
 
 -----------------------------------------*/
-@media only screen and (max-width:1400px) {
-	
-	#logo {width: 350px; padding: 18.5px 0;}
-	#nav>li>a {padding: 38px 10px; font-size: 16px;}
+@media only screen and (max-width:1440px) {
+	#nav a,#nav span{font-size:16px;padding:40px 5px 41px}
 
 	.owl-prev {position: absolute; top: 25%; left: -73px;}
 	.owl-next {position: absolute; top: 25%; right: -73px;}
 
-	#lwp {height: 550px;}
-	#lwp>.container {bottom: -350px;}
-	.lwp-carousel a>h3 {font-size: 50px; letter-spacing: 1.5px;}
-	.lwp-carousel a>img {height: 400px;}
-
-	#info {margin-top: 350px; margin-bottom: 25px;}
-	#info h4 {font-size: 20px; margin: 10px;}
-	#info h4>span {font-size: 36px;}
 }
 
-@media only screen and (max-width:1200px) {
-	
-	#logo {width: 315px; padding: 21.5px 0;}
-	#lwp>.container,
-	#footer-links,
-	nav {padding: 0 40px;}
-	#nav>li>a {padding: 38.5px 3px;}
-	#search{right:15px;}
-
+@media only screen and (max-width:1367px){
+	nav{padding:0 15px}
 }
+
+@media only screen and (max-width:1200px){
+	#logo{width:300px;margin-top:26px}
+	#info {margin-top: 300px;}
+}
+
 
 @media only screen and (min-width:992px) {
-	
-	#nav>li>ul>li>ul {margin-left: 0px;}
-	#nav>li>a:hover {box-shadow: inset 0px -5px 0px #f7f088;}
-
-	#nav>li>ul>li>ul>li>a {padding: 1px 0;}
-
+	#nav>li>ul{-webkit-column-count:4;-moz-column-count:4;column-count:4;background:#546a92;position:absolute;right:139px;top:100%;width:885px;max-width:100%;padding:29px 35px}
+	#nav>li>ul>li>a,#nav>li>ul>li>span{color:#f7f088;font-size:16px;margin-bottom:10px}
+	#nav>li>ul>li{margin-bottom:11px}
+	#nav ul ul a,#nav ul ul span{text-transform:none;font-size:14px;font-weight:500;margin-bottom:4px}
+	#nav ul a,#nav ul span{padding:0}
+	#nav li:hover>ul{display:block}
 	#flyout,#nav{display:block!important}
+	#nav-toggle,.toggle,.toggle2{display:none}
 
 }
 
 @media only screen and (max-width:991px) {
-
+	#logo{margin:0;padding:15px 0;float:none !important;display:inline-block}
+	#nav-toggle,.toggle,.toggle2{position:absolute;right:15px;top:15px;line-height:45px;width:45px;text-align:center;color:#fff;font-size:18px;border:1px solid #fff;border-radius:4px;z-index:1}
+	.toggle,.toggle2{top:0 !important}
+	
+	#search{position:relative;display:block;top:auto;width:auto;left:auto;right:auto}
+	#search-toggle{display:none}
 	/* rz form tables - without page scope this targets editforms and makes
 	 * editing confusing
 	 */
@@ -485,67 +463,15 @@ footer>p>a {color: #fff !important;}
 	header {position: relative;}
 
 	form {margin: 0;}
-	.toggle,
-	.toggle2,
-	#nav-toggle{display:inline-block;cursor:pointer; padding: 10px 11px; border-radius: 4px; margin-top: 25px; background-color: transparent; border: 1px solid #f7f088; color: #f7f088; font-size: 25px;}
-	.toggle,
-	.toggle2 {padding: 0;}
-	.down-arrow{display:none} /* if not hidden above */
-	#nav{display:none; width: 100%;}
-	#nav li{display:block; position: relative;}
-	#nav li a,
-	#search-toggle,
-	#nav li span{padding:16px 5px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
-	#nav>li>a {padding: 16px 0;}
-	#nav li input[type="search"] {margin: 15px 25px;}
-	#nav li input::placeholder {font-size: 14px;}
-	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
-	#nav>li:hover > ul{display:none}
-	#nav ul a,
-	#nav ul span{width:100%}
-	ul ul {margin: 0;}
-	#nav .toggle,
-	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2); margin: 0; line-height: 45px; width: 45px; height: 45px;text-align:center}
-	#nav>li>ul {position: static; width: 100%; height: auto;}
-	#nav>li>ul>li>ul{display:none}
-	#nav li li:hover > a{background:none; color:#fff}
-	#nav li li {position: relative}
-	#nav>li>ul>li>a {text-transform: none; font-size: 13px;}
-	#nav>li>ul>li>ul>li>a {font-size: 12px;}
-	#nav>li>ul {
-		-moz-column-count: 1;
-		-moz-column-gap: 0;
-		-webkit-column-count: 1;
-		-webkit-column-gap: 0;
-		column-count: 1;
-		column-gap: 0;
-		padding: 0;
-		position: static;
-	}
-	#search {display: block; right: 40px; left: 40px; width: 100%;}
-	#search form {width: unset;}
-	#search form input[type='search'] {width: calc(100% - 55px);}
-	#search form button {right: unset;}
-	#search-toggle.fa.fa-search {display: none;}
+	
+	#nav-toggle{position:absolute;right:15px;top:15px}
+	#nav{display:none;float:none !important;margin:0 -15px}
+	#nav li{display:block;position:relative}
+	#nav a,#nav span{padding:15px;border-bottom:1px solid rgba(0,0,0,.5)}
+	#nav ul{display:none;background:rgba(0,0,0,.5)}
+	.down-arrow{display:none}
 
 	#slider {margin-top: 0; height: 600px}
-
-	#lwp {height: 500px;}
-	#lwp>.container {bottom: -350px;}
-	.lwp-carousel a {height: 400px;}
-
-	#info {margin-top: 200px;}
-	#info .row.text-center>div>div {width: 100px; height: 100px;}
-	#info img {margin-top: 25px; width: 60px;}
-
-	#flyout{display:none}
-	#flyout li{}
-	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
-	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
-	#flyout ul a,
-	#flyout ul span{width:100%}
-	#flyout li:hover > ul{display:none}
 
 	.floating-share-btn {top: unset; bottom: 0;}
 }
@@ -557,20 +483,16 @@ footer>p>a {color: #fff !important;}
 	#slider .container.text-center>h1>span {font-size: 45px; transform: translate(55%, 50%);}
 	#slider .container.text-center>h1>span:first-of-type {transform: translate(-150%, -165%);}
 
-	#welcome {padding: 0 25px;}
 	#welcome h2 {font-size: 24px;}
 	#welcome h2>span {font-size: 30px;}
-	#welcome p {width: 320px; font-size: 15px;}
 
 	#lwp>.container {bottom: -500px;}
-	.lwp-carousel a {height: 450px;}
-	.lwp-carousel>div>.owl-stage {height: 800px;}
 
-	#info {margin-top: 250px;}
+	#info {margin-top: 350px;}
 
 	.floating-alert{width:auto;right:0;left:0;border:0;bottom:0;border-radius:0;padding-left:15px;padding-right:15px}
 	.floating-alert{font-size:12px}
-	.floating-alert h1{margin-bottom:10px;font-size:14px}
+	.floating-alert h6{margin-bottom:10px;font-size:14px}
 	.floating-alert .btn{font-size:10px;padding:7px 12px!important}
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
@@ -589,8 +511,6 @@ footer>p>a {color: #fff !important;}
 	#footer-links,
 	nav {padding: 0 25px;}
 	#nav-toggle{margin-top: 20px;}
-	#search {right: 25px; left: 25px;}
-	#search form input[type='search'] {width: calc(100% - 25px);}
 
 	#slider .container.text-center>h1 {font-size: 55px;}
 	#slider .container.text-center>h1>span {font-size: 35px; transform: translate(35%, 40%);}

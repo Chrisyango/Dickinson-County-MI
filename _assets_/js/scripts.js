@@ -55,7 +55,7 @@
 
 	// Search Toggle
 	$('#search-toggle').on('click',function(e){
-		$('#search').stop().slideToggle(200);
+		$('#search').stop().fadeToggle(200);
 		$(this).toggleClass('fa-search fa-close');
 	});
 
@@ -66,11 +66,11 @@
 	});
 
 	// Menu Arrows
-	$("#nav > li> ul > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
+	$("#nav > li> ul > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-caret-down down-arrow">');
 
 	// Menu Toggles
-	$("#nav >li:has(ul)").children("a,span").append('<i class="fa fa-angle-down toggle">');
-	$("#nav li li:has(ul)").children("a,span").append('<i class="fa fa-angle-down toggle2">');
+	$("#nav >li:has(ul)").children("a,span").append('<i class="fa fa-caret-down toggle">');
+	$("#nav li li:has(ul)").children("a,span").append('<i class="fa fa-caret-down toggle2">');
 
 	function addNavClass() {
 		if ($window.width() < 992) {
