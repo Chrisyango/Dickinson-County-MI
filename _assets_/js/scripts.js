@@ -66,7 +66,7 @@
 	});
 
 	// Menu Arrows
-	$("#nav > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
+	$("#nav > li> ul > li:has(ul)").addClass('first-parent').children("a,span").append('<i class="fa fa-angle-down down-arrow">');
 
 	// Menu Toggles
 	$("#nav >li:has(ul)").children("a,span").append('<i class="fa fa-angle-down toggle">');
