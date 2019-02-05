@@ -312,6 +312,7 @@
 				1200: {
 					items: itemCount(3),
 					center: true,
+					margin: 10
 				}
 			}
 			// items: (quickLinksCount >= 5 ? 5 : quickLinksCount)
