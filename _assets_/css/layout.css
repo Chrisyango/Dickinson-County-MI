@@ -481,6 +481,8 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 
 	#slider {margin-top: 0; height: 600px}
 
+	#footer-links h5{margin:9px 0;}
+
 	.floating-share-btn {top: unset; bottom: 0;}
 }
 
@@ -514,11 +516,6 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px) {
-	#logo {width: 260px; padding: 21.5px 0;}
-	#lwp>.container,
-	#footer-links,
-	nav {padding: 0 25px;}
-	#nav-toggle{margin-top: 20px;}
 
 	#slider .container.text-center>h1 {font-size: 55px;}
 	#slider .container.text-center>h1>span {font-size: 35px; transform: translate(35%, 40%);}
@@ -530,6 +527,8 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 	#info {margin-top: 200px;}
 	#info h4 {font-size: 18px; margin: 10px;}
 	#info h4>span {font-size: 28px;}
+
+	#footer-links {padding:50px 0 0;}
 }
 
 @media print {
