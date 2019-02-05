@@ -264,7 +264,7 @@ nav {padding: 0 25px;}
 #search{position:absolute;right:0;top:calc(100% + 10px); display: none;}
 
 /* ---------------- Hero ---------------- */
-#slider .container.text-center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 80;}
+#slider .container.text-center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 80; padding: 0;}
 #slider .container.text-center>h1 {padding: 0 25px; color: #fff; font-size: 120px; font-weight: 700; text-transform: uppercase; text-shadow: 2px 2px 10px #000;}
 #slider .container.text-center>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; font-weight: 300; text-transform: none; position: absolute; bottom: -20px; right: 270px}
 #slider .container.text-center>h1>span:first-of-type {top: -30px; left: -160px;}
@@ -280,8 +280,8 @@ nav {padding: 0 25px;}
 #quick-links {margin: 70px 100px;}
 .quick-link>h2 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700; margin-bottom: 0;}
 #quick-links .owl-carousel .owl-item img {width: 75px; margin: 0 auto;}
-#quick-links .owl-prev {position: absolute; top: 25%; left: -30px;}
-#quick-links .owl-next {position: absolute; top: 25%; right: -30px;}
+#quick-links .owl-prev {position: absolute; top: 25%; left: -75px;}
+#quick-links .owl-next {position: absolute; top: 25%; right: -75px;}
 
 
 /* ---------------- Welcome ---------------- */
@@ -304,7 +304,7 @@ nav {padding: 0 25px;}
 	bottom: 0;
 	right: 0;
 }
-#lwp>.container {width: 80%; position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%);}
+#lwp>.container {width: 80%; position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%); padding: 0 25px;}
 .lwp-carousel a>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000; letter-spacing: 10px;}
 .lwp-carousel a>img {border-radius: 5px; width: 450px; box-shadow: 0.2px 0.2px 10px 0.2px #222; height: 500px;}
 .lwp-carousel .center {z-index: 2; transform: scale(1.15);}
@@ -338,7 +338,7 @@ nav {padding: 0 25px;}
 #footer-links>.container {padding: 100px 0 75px 0;}
 #footer-links>.container, .container a {color: #efefef; font-size: 13px;}
 #footer-links>.container h2 {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;}
-#footer-links>.container>.row>div {padding: 5px 25px;}
+#footer-links>.container>.row>div {padding: 5px 15px;}
 
 
 /* ---------------- Footer ---------------- */
@@ -483,12 +483,15 @@ footer>p>a {color: #fff !important;}
 	.toggle,
 	.toggle2,
 	#nav-toggle{display:inline-block;cursor:pointer; padding: 10px 11px; border-radius: 4px; margin-top: 25px; background-color: transparent; border: 1px solid #f7f088; color: #f7f088; font-size: 25px;}
+	.toggle,
+	.toggle2 {padding: 0;}
 	.down-arrow{display:none} /* if not hidden above */
 	#nav{display:none; width: 100%;}
 	#nav li{display:block; position: relative;}
 	#nav li a,
 	#search-toggle,
-	#nav li span{padding:16px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li span{padding:16px 5px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav>li>a {padding: 16px 0;}
 	#nav li input[type="search"] {margin: 15px 25px;}
 	#nav li input::placeholder {font-size: 14px;}
 	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
