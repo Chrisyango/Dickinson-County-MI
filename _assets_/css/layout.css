@@ -336,6 +336,14 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 #inner
 
 -----------------------------------------*/
+
+
+/* ---------------- Hero ---------------- */
+#freeform #slider:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:50;opacity:.6}
+#freeform #slider {height:600px;}
+
+
+
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
