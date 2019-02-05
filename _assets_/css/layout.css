@@ -214,6 +214,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 header{position:fixed;z-index:200;left:0;width:100%;top:0}
+.container {width: 1420px; max-width: 100%;}
 #search-toggle{color:#f7f088}
 
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -255,11 +256,11 @@ ul>li>a {text-decoration: none;}
 #nav>li:hover>ul{display:block}
 #search{position:absolute;right:55px;top:calc(100% + 10px); display: none;}
 #search-toggle {font-size: 20px; cursor: pointer;}
-#search>form {position: relative; margin-right: 83px; width: 250px;}
-#search>form>label {display: none;}
-#search>form>input[type='search'] {padding: 5px}
-#search>form>input {border-radius: 5px 0px 0px 5px; margin: 0;}
-#search>form>button {border-radius: 0px 5px 5px 0px; margin: 0; padding: 9.5px 20px; position: absolute; top: 0; right: -58px; background-color: #27344d; color: #f7f088!important;}
+#search form {position: relative; margin-right: 83px; width: 250px;}
+#search form label {position: absolute; top: 50%; transform: translateY(-50%); left: 10px; color: #27344d; cursor: text;}
+#search form input[type='search'] {padding: 5px; padding-left: 40px;}
+#search form input {border-radius: 5px 0px 0px 5px; margin: 0;}
+#search form button {border-radius: 0px 5px 5px 0px; margin: 0; padding: 9.5px 20px; position: absolute; top: 0; right: -58px; background-color: #27344d; color: #f7f088!important;}
 
 
 /* ---------------- Hero ---------------- */
@@ -267,8 +268,8 @@ ul>li>a {text-decoration: none;}
 #slider>img{position:absolute;left:0;width:100%;bottom:0;z-index:80}
 #slider .container.text-center{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 80; padding: 0;}
 #slider .container.text-center>h1 {padding: 0 25px; color: #fff; font-size: 120px; font-weight: 700; text-transform: uppercase; text-shadow: 2px 2px 10px #000;}
-#slider .container.text-center>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; font-weight: 300; text-transform: none; position: absolute; bottom: -20px; right: 270px}
-#slider .container.text-center>h1>span:first-of-type {top: -30px; left: -160px;}
+#slider .container.text-center>h1>span {color: #f7f088; font-family: wildYouth; font-size: 65px; font-weight: 300; text-transform: none; position: absolute; top: 50%; left: 50%; transform: translate(60%, 60%);}
+#slider .container.text-center>h1>span:first-of-type {transform: translate(-155%, -165%);}
 @font-face {
 	font-family: wildYouth;
 	src: url(../fonts/WildYouth-Regular.otf_/WildYouth-Regular.otf);
@@ -277,7 +278,7 @@ ul>li>a {text-decoration: none;}
 
 /* ---------------- Quick Links ---------------- */
 #quick-links {margin: 70px 100px;}
-.quick-link>h2 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700; margin-bottom: 0;}
+.quick-link h4 {text-transform: uppercase; color: #686868; font-size: 18px; font-weight: 700; margin-bottom: 0;}
 #quick-links .owl-carousel .owl-item img {width: 75px; margin: 0 auto;}
 #quick-links .owl-prev {position: absolute; top: 25%; left: -75px;}
 #quick-links .owl-next {position: absolute; top: 25%; right: -75px;}
@@ -303,24 +304,24 @@ ul>li>a {text-decoration: none;}
 	bottom: 0;
 	right: 0;
 }
-#lwp>.container {width: 80%; position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%); padding: 0 25px;}
-.lwp-carousel a>h2 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000; letter-spacing: 10px;}
-.lwp-carousel a>img {border-radius: 5px; width: 450px; box-shadow: 0.2px 0.2px 10px 0.2px #222; height: 500px;}
+#lwp>.container {position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%); padding: 0 80px;}
+.lwp-carousel a {display: block; height: 470px; border-radius: 5px; box-shadow: 0.2px 0.2px 10px 0.2px #222;}
+.lwp-carousel a>h3 {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 72px; font-weight: 700; text-transform: uppercase; text-shadow: 0px 0px 10px #000; letter-spacing: 10px;}
 .lwp-carousel .center {z-index: 2; transform: scale(1.2);}
 .lwp-carousel>div>.owl-stage {height: 650px; padding-top: 50px;}
+.lwp-carousel .owl-item {transition: all 0.3s;}
 
 /* ---------------- Info ---------------- */
 #info {margin: 300px 0 100px 0; padding: 0 25px}
-#info>div {width: 80%; padding: 0;}
-#info>.container>.row>div {padding: 20px 0;}
-#info>div>div>div>div {margin: 0 auto; border-radius: 50%; background-color: #546a92; width: 150px; height: 150px;}
-#info>div>div>div>div>img {margin-top: 30px; width: 100px;}
-#info>div>div>div>h2 {font-size: 24px; color: #91b789; text-transform: uppercase;}
-#info>div>div>div>h2>span {font-size: 48px; color: #546a92}
+#info .row.text-center>div {padding: 20px 0;}
+#info .row.text-center>div>div {margin: 0 auto; border-radius: 50%; background-color: #546a92; width: 150px; height: 150px;}
+#info img {margin-top: 30px; width: 100px;}
+#info h4 {font-size: 24px; color: #91b789; text-transform: uppercase;}
+#info h4>span {font-size: 48px; color: #546a92}
 
 
 /* ---------------- Footer-Links ---------------- */
-#footer-links {position: relative; background-color: #27344d; padding: 0 25px;}
+#footer-links {position: relative; background-color: #27344d; padding: 0 80px;}
 #footer-links:before {
 	content: "";
 	background-image: url('../images/footer-links.jpg');
@@ -336,7 +337,7 @@ ul>li>a {text-decoration: none;}
 #footer-links>img {position: absolute; top: 0; left: 0; width: 100%;}
 #footer-links>.container {padding: 100px 0 75px 0;}
 #footer-links>.container, .container a {color: #efefef; font-size: 13px;}
-#footer-links>.container h2 {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;}
+#footer-links>.container h5 {color: #f7f088; font-size: 16px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;}
 #footer-links>.container>.row>div {padding: 5px 15px;}
 
 
@@ -442,20 +443,19 @@ footer>p>a {color: #fff !important;}
 
 	#lwp {height: 550px;}
 	#lwp>.container {bottom: -350px;}
-	.lwp-carousel a>h2 {font-size: 50px; letter-spacing: 1.5px;}
+	.lwp-carousel a>h3 {font-size: 50px; letter-spacing: 1.5px;}
 	.lwp-carousel a>img {height: 400px;}
 
-	#info {margin-top: 250px; margin-bottom: 25px;}
-	#info>div>div>div>h2 {font-size: 20px; margin: 10px;}
-	#info>div>div>div>h2>span {font-size: 36px;}
+	#info {margin-top: 350px; margin-bottom: 25px;}
+	#info h4 {font-size: 20px; margin: 10px;}
+	#info h4>span {font-size: 36px;}
 }
 
 @media only screen and (max-width:1200px) {
-
-	#slider .container.text-center>h1>span {right: 170px}
-	#slider .container.text-center>h1>span:first-of-type {left: -260px;}
 	
 	#logo {width: 315px; padding: 21.5px 0;}
+	#lwp>.container,
+	#footer-links,
 	nav {padding: 0 40px;}
 	#nav>li>a {padding: 38.5px 3px;}
 	#search{right:15px;}
@@ -522,19 +522,21 @@ footer>p>a {color: #fff !important;}
 		padding: 0;
 		position: static;
 	}
-	#search {display: block;}
+	#search {display: block; right: 40px; left: 40px; width: 100%;}
+	#search form {width: unset;}
+	#search form input[type='search'] {width: calc(100% - 55px);}
+	#search form button {right: unset;}
 	#search-toggle.fa.fa-search {display: none;}
 
-	#slider {margin-top: 0;}
-	#slider .container.text-center>h1>span {right: 65px}
-	#slider .container.text-center>h1>span:first-of-type {left: -375px;}
+	#slider {margin-top: 0; height: 600px}
 
 	#lwp {height: 500px;}
 	#lwp>.container {bottom: -350px;}
+	.lwp-carousel a {height: 400px;}
 
 	#info {margin-top: 200px;}
-	#info>div>div>div>div {width: 100px; height: 100px;}
-	#info>div>div>div>div>img {margin-top: 25px; width: 60px;}
+	#info .row.text-center>div>div {width: 100px; height: 100px;}
+	#info img {margin-top: 25px; width: 60px;}
 
 	#flyout{display:none}
 	#flyout li{}
@@ -551,19 +553,17 @@ footer>p>a {color: #fff !important;}
 	/* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:767px) {
 
-	#search>form {width: 200px;}
-
-	#slider .container.text-center>h1 {color: #fff; font-size: 80px;}
-	#slider .container.text-center>h1>span {font-size: 40px; bottom: 0px; right: 40px}
-	#slider .container.text-center>h1>span:first-of-type {top: -10px; left: -260px;}
+	#slider .container.text-center>h1 {font-size: 80px;}
+	#slider .container.text-center>h1>span {font-size: 45px; transform: translate(55%, 50%);}
+	#slider .container.text-center>h1>span:first-of-type {transform: translate(-150%, -165%);}
 
 	#welcome {padding: 0 25px;}
 	#welcome h2 {font-size: 24px;}
 	#welcome h2>span {font-size: 30px;}
 	#welcome p {width: 320px; font-size: 15px;}
 
-	#lwp>.container {bottom: -450px;}
-	.lwp-carousel a>img {height: 500px;}
+	#lwp>.container {bottom: -500px;}
+	.lwp-carousel a {height: 450px;}
 	.lwp-carousel>div>.owl-stage {height: 800px;}
 
 	#info {margin-top: 250px;}
@@ -579,26 +579,29 @@ footer>p>a {color: #fff !important;}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width:480px) and (max-width:767px) {
-	.lwp-carousel a>h2 {font-size: 72px; letter-spacing: 10px;}
+	.lwp-carousel a>h3 {font-size: 72px; letter-spacing: 10px;}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px) {
 	#logo {width: 260px; padding: 21.5px 0;}
+	#lwp>.container,
+	#footer-links,
 	nav {padding: 0 25px;}
 	#nav-toggle{margin-top: 20px;}
-	#search{right:0px;}
+	#search {right: 25px; left: 25px;}
+	#search form input[type='search'] {width: calc(100% - 25px);}
 
-	#slider .container.text-center>h1 {color: #fff; font-size: 60px; text-shadow: 2px 2px 10px #000;}
-	#slider .container.text-center>h1>span {font-size: 35px; bottom: 0px; right: 35px}
-	#slider .container.text-center>h1>span:first-of-type {top: -5px; left: -170px;}
+	#slider .container.text-center>h1 {font-size: 55px;}
+	#slider .container.text-center>h1>span {font-size: 35px; transform: translate(35%, 40%);}
+	#slider .container.text-center>h1>span:first-of-type {transform: translate(-133%, -165%);}
 
 	#lwp>.container {width: 100%; bottom: -500px;}
-	.lwp-carousel a>img {height: 400px;}
+	.lwp-carousel a {height: 350px;}
 
 	#info {margin-top: 200px;}
-	#info>div>div>div>h2 {font-size: 18px; margin: 10px;}
-	#info>div>div>div>h2>span {font-size: 28px;}
+	#info h4 {font-size: 18px; margin: 10px;}
+	#info h4>span {font-size: 28px;}
 }
 
 @media print {

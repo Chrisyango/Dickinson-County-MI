@@ -140,23 +140,23 @@
 	<div class="owl-carousel">
 		<a href="./" class="quick-link">
 			<img src="./_assets_/images/document.png" alt="Document" class="quick-link-icon">
-			<h2 class="quick-link-title">Documents</h2>
+			<h4 class="quick-link-title">Documents</h4>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
 			<img src="./_assets_/images/tick-done.png" alt="Checkmark" class="quick-link-icon">
-			<h2 class="quick-link-title">Elections</h2>
+			<h4 class="quick-link-title">Elections</h4>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
 			<img src="./_assets_/images/calendar.png" alt="Calendar" class="quick-link-icon">
-			<h2 class="quick-link-title">Calendar</h2>
+			<h4 class="quick-link-title">Calendar</h4>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
 			<img src="./_assets_/images/environment.png" alt="Tree" class="quick-link-icon">
-			<h2 class="quick-link-title">Parks & Rec</h2>
+			<h4 class="quick-link-title">Parks & Rec</h4>
 		</a><!--/.quick-link-->
 		<a href="./" class="quick-link">
 			<img src="./_assets_/images/communication.png" alt="Talk Bubble" class="quick-link-icon">
-			<h2 class="quick-link-title">Contact Us</h2>
+			<h4 class="quick-link-title">Contact Us</h4>
 		</a><!--/.quick-link-->
 	</div><!-- .owl-carousel -->
 </section>
@@ -169,17 +169,14 @@
 <section id="lwp">
 	<div class="text-center container">
 		<div class="lwp-carousel">
-			<a id="work" href="./">
-				<img src="./_assets_/images/work.jpg" alt="Developers working">
-				<h2>Work</h2>
+			<a href="./" class="lwp-item" style="background: url('./_assets_/images/work.jpg') center no-repeat; background-size: cover;">
+				<h3>Work</h3>
 			</a><!-- #work -->
-			<a id="play" href="./">
-				<img src="./_assets_/images/play.jpg" alt="Someone snowboarding">
-				<h2>Play</h2>
+			<a href="./" class="lwp-item" style="background: url('./_assets_/images/play.jpg') center no-repeat; background-size: cover;">
+				<h3>Play</h3>
 			</a><!-- #play -->
-			<a id="live" href="./">
-				<img src="./_assets_/images/live.jpg" alt="Mom carrying son">
-				<h2>Live</h2>
+			<a href="./" class="lwp-item" style="background: url('./_assets_/images/live.jpg') center no-repeat; background-size: cover;">
+				<h3>Live</h3>
 			</a><!-- #live -->
 		</div><!-- .owl-carousel -->
 	</div><!-- .text-center.container -->
@@ -190,19 +187,19 @@
 		<div class="row text-center">
 			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/users.png" alt="People"></div>
-				<h2><span>27,472</span><br>population</h2>
+				<h4><span>27,472</span><br>population</h4>
 			</div>
 			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/rulers-combined.png" alt="Two rulers combined in an L-shape"></div>
-				<h2><span>220,000</span><br>acres of public land</h2>
+				<h4><span>220,000</span><br>acres of public land</h4>
 			</div>
 			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/tint.png" alt="Water drop"></div>
-				<h2><span>6,400</span><br>acres of lakes</h2>
+				<h4><span>6,400</span><br>acres of lakes</h4>
 			</div>
 			<div class="col-md-3 col-xs-6">
 				<div><img src="./_assets_/images/leaf.png" alt="Leaf"></div>
-				<h2><span>30+</span><br>parks & campgrounds</h2>
+				<h4><span>30+</span><br>parks & campgrounds</h4>
 			</div>
 		</div>
 	</div>
@@ -213,7 +210,7 @@
 	<div class="container">
 		<div class="row">
 			<div id="county-departments" class="col-md-3 col-sm-6">
-				<h2>County Departments</h2>
+				<h5>County Departments</h5>
 				<ul>
 					<li><a href="./">Board of Commissioners</a></li>
 					<li><a href="./">Register of Deeds</a></li>
@@ -225,7 +222,7 @@
 				</ul>
 			</div>
 			<div id="county-departments-cont" class="col-md-3 col-sm-6">
-				<h2>County Departments</h2>
+				<h5>County Departments</h5>
 				<ul>
 					<li><a href="./">Drain Commissioner</a></li>
 					<li><a href="./">Equalization</a></li>
@@ -237,7 +234,7 @@
 			</div>
 			<div class="clearfix visible-xs visible-sm"></div>
 			<div id="quicklinks" class="col-md-3 col-sm-6">
-				<h2>Quicklinks</h2>
+				<h5>Quicklinks</h5>
 				<ul>
 					<li><a href="./">Documents</a></li>
 					<li><a href="./">Elections</a></li>
@@ -248,11 +245,11 @@
 			</div>
 			<div id="contact" class="col-md-3 col-sm-6">
 				<div id="contact-us">
-					<h2>Contact Us</h2>
+					<h5>Contact Us</h5>
 					<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
 				</div>
 				<div id="mailing-address">
-					<h2>Mailing Address</h2>
+					<h5>Mailing Address</h5>
 					<p>PO Box 609<br>Iron Mountain MI 49801</p>
 				</div>
 			</div>

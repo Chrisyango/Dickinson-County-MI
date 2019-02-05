@@ -297,6 +297,11 @@
 			}
 			// items: (quickLinksCount >= 5 ? 5 : quickLinksCount)
 		});
+
+		let lwpCount = $('.lwp-item').length;
+		const lwpItems = function(num) {
+			return (lwpCount >= num ? num : lwpCount);
+		}
 		$(".lwp-carousel").owlCarousel({
 			loop: true,
 			responsiveClass: true,
@@ -304,15 +309,14 @@
 			navText: ['<i class="fa fa-angle-left fa-3x"></i>', '<i class="fa fa-angle-right fa-3x"></i>'],
 			responsive: {
 				0: {
-					items: itemCount(1)
+					items: lwpItems(1),
 				},
 				768: {
-					items: itemCount(2),
+					items: lwpItems(2),
 				},
 				1200: {
-					items: itemCount(3),
-					center: true,
-					margin: 10
+					items: lwpItems(3),
+					center: true
 				}
 			}
 			// items: (quickLinksCount >= 5 ? 5 : quickLinksCount)
