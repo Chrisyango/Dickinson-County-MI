@@ -129,11 +129,9 @@
 								<a href="./">
 									home
 								</a>
-								/
 								<a href="./">
 									parent page
 								</a>
-								/
 								current page
 							</p>
 						</section><!-- /#breadcrumbs -->
@@ -296,20 +294,10 @@
 				<!-- Share widget make into an include file -->
 
 <script src="_assets_/js/jquery.min.js"></script>
+<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
 <script src="_assets_/js/scripts.js"></script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5113ea471e44f9dd"></script>
-<script type="text/javascript">
-  addthis.layers({
-    'theme' : 'transparent',
-    'share' : {
-      'position' : 'right',
-      'numPreferredServices' : 6
-    } 
-  });
-</script>
 </body>
 </html>

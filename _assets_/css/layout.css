@@ -341,22 +341,24 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 /* ---------------- Hero ---------------- */
 #freeform #slider:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:50;opacity:.6}
 #freeform #slider {height:600px;}
+#freeform #slider .container {z-index: 100;}
 
 
 
 #flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
+#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000; text-transform: capitalize;}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
 
-.breadcrumbs{font-size:13px;text-transform:capitalize}
-.breadcrumbs p{margin:0}
-.breadcrumbs a{text-decoration:none}
-.breadcrumbs i{font-size:13px;margin:0 4px}
+#breadcrumbs{font-size:13px;text-transform:capitalize; z-index: 100;}
+#breadcrumbs p{margin:0; color: #fff;}
+#breadcrumbs a{text-decoration:none; color: #f7f088;}
+#breadcrumbs a:after{content: '/';}
+#breadcrumbs i{font-size:13px;margin:0 4px}
 
 /* -----------------------------------------
 
@@ -475,7 +477,7 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 	#nav-toggle{position:absolute;right:15px;top:15px}
 	#nav{display:none;float:none !important;margin:0 -15px}
 	#nav li{display:block;position:relative}
-	#nav a,#nav span{padding:15px;border-bottom:1px solid rgba(0,0,0,.5)}
+	#nav a,#nav span{padding:15px;border-bottom:1px solid rgba(0,0,0,.6)}
 	#nav ul{display:none;background:rgba(0,0,0,.5)}
 	.down-arrow{display:none}
 
@@ -484,6 +486,8 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 	#footer-links h5{margin:9px 0;}
 
 	.floating-share-btn {top: unset; bottom: 0;}
+
+	#flyout {display:none}
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -535,7 +539,7 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 	.nav-wrap,
 	.sidebar,
 	#flyout-wrap,
-	.breadcrumbs
+	#breadcrumbs
 	.e-notify{display:none!important}
 	a[href]:after{content:none!important}
 }
