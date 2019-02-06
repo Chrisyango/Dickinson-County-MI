@@ -230,14 +230,11 @@ header{position:fixed;z-index:200;left:0;width:100%;top:0}
 /* ---------------- Nav ---------------- */
 nav {background-color: #27344d; padding: 0 101px 0 98px}
 #logo {width: 477px;margin-top:10px}
-#nav>li>ul{display:none}
+#nav>li>ul{display:none; border-radius: 0 0 4px 4px;}
 #nav{padding:0;margin:0}
 #nav a,#nav span{text-decoration:none;font-size:18px;font-weight:700;color:#fff;text-transform:uppercase;padding:39px 10px;display:block;line-height:normal}
 #nav li{display:inline-block;margin:0}
-
 #nav ul{padding:0;margin:0}
-
-
 .down-arrow{margin-left:7px}
 
 
@@ -314,7 +311,7 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 
 
 /* ---------------- Footer-Links ---------------- */
-#footer-links {position: relative;padding:143px 0 0; color: #fff;}
+#footer-links {position: relative;padding:100px 0 50px; color: #fff;}
 #footer-links:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:10;opacity:.85}
 #footer-links>img{position: absolute; top: 0; left: 0; width: 100%;z-index:30}
 #footer-links h5{margin:0 0 11px;font-size:16px;font-weight:700;color:#f7f088;text-transform:uppercase}
@@ -324,7 +321,7 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 #footer-links p {margin-bottom: 23px; line-height: 1.3;}
 #footer-links *{position:relative;z-index:40}
 
-.footer-link-items {margin: 0;}
+.footer-link-items {margin-bottom: 10px;}
 
 
 /* ---------------- Footer ---------------- */
