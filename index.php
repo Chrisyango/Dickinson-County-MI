@@ -219,7 +219,7 @@
 	<img src="./_assets_/images/footer-links-whitespace.png" alt="Whitespace">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6 footer-link-items">
 				<h5>County Departments</h5>
 				<ul>
 					<li><a href="./">Board of Commissioners</a></li>
@@ -231,7 +231,7 @@
 					<li><a href="./">Courts</a></li>
 				</ul>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6 footer-link-items">
 				<h5>County Departments</h5>
 				<ul>
 					<li><a href="./">Drain Commissioner</a></li>
@@ -242,7 +242,8 @@
 					<li><a href="./">Ford Airport</a></li>
 				</ul>
 			</div>
-			<div class="col-md-3">
+			<div class="clearfix visible-sm-block"></div>
+			<div class="col-md-3 col-sm-6 footer-link-items">
 				<h5>Quicklinks</h5>
 				<ul>
 					<li><a href="./">Documents</a></li>
@@ -252,7 +253,7 @@
 					<li><a href="./">Contact Information</a></li>
 				</ul>
 			</div>
-			<div id="contact" class="col-md-3">
+			<div id="contact" class="col-md-3 col-sm-6 footer-link-items">
 				<div id="contact-us">
 					<h5>Contact Us</h5>
 					<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
