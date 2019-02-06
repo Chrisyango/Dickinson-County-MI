@@ -247,7 +247,7 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 #quick-links {margin: 40px 100px;position:relative}
 #quick-links .container{width:1335px}
 #quick-links .owl-carousel:after{content:'';position:absolute;right:0;top:0;bottom:0;background:#fff;width:1px;z-index:1}
-.quick-link h4 {text-transform:uppercase;font-size:18px;letter-spacing:.1em;font-weight:900;color:#686868;margin:}
+.quick-link h4 {text-transform:uppercase;font-size:18px;letter-spacing:.1em;font-weight:900;color:#686868;}
 .quick-link img{width: 64px !important; margin:0 auto 26px}
 #quick-links .owl-prev {position: absolute; top: 25%; left: -100px;}
 #quick-links .owl-next {position: absolute; top: 25%; right: -100px;}

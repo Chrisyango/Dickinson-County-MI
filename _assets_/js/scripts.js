@@ -213,34 +213,6 @@
 	}
 
 	$window.ready(function(){
-
-		// Animations http://www.oxygenna.com/tutorials/scroll-animations-using-waypoints-js-animate-css
-		function onScrollInit( items, trigger ) {
-			items.each( function() {
-				var osElement = $(this),
-					osAnimationClass = osElement.data('os-animation'),
-					osAnimationDelay = osElement.data('os-animation-delay');
-
-				osElement.css({
-					'-moz-animation-delay':     osAnimationDelay,
-					'animation-delay':          osAnimationDelay,
-					'-webkit-animation-delay':  osAnimationDelay
-				});
-
-				var osTrigger = ( trigger ) ? trigger : osElement;
-
-				if(typeof $.fn.waypoint !== "undefined"){
-					osTrigger.waypoint(function() {
-						osElement.addClass('animated').addClass(osAnimationClass);
-					},{
-						triggerOnce: true,
-						offset: '100%'
-					});
-				}
-			});
-		}
-		onScrollInit($('.os-animation'));
-
 		//#Smooth Scrolling
 		$('a[href*=#]:not([href=#],[href*="#collapse"])').click(function() {
 			if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
