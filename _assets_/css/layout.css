@@ -269,8 +269,8 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 #quick-links .owl-carousel:after{content:'';position:absolute;right:0;top:0;bottom:0;background:#fff;width:1px;z-index:1}
 .quick-link h4 {text-transform:uppercase;font-size:18px;letter-spacing:.1em;font-weight:900;color:#686868;margin:}
 .quick-link img{width: 64px !important; margin:0 auto 26px}
-#quick-links .owl-prev {position: absolute; top: 25%; left: -75px;}
-#quick-links .owl-next {position: absolute; top: 25%; right: -75px;}
+#quick-links .owl-prev {position: absolute; top: 25%; left: -100px;}
+#quick-links .owl-next {position: absolute; top: 25%; right: -100px;}
 
 .quick-link{text-decoration:none;display:block;position:relative}
 .quick-link:after{content:'';position:absolute;right:0;top:0;bottom:0;width:1px;background:url(../images/border.png) top right repeat-y;background-size:auto}
@@ -320,7 +320,7 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 #footer-links h5{margin:0 0 9px;font-size:16px;font-weight:700;color:#f7f088;text-transform:uppercase}
 #footer-links ul{padding:0;margin:0}
 #footer-links li{list-style:none;margin:0}
-#footer-links a{color:#fff;text-decoration:none;display:block;margin-bottom:2px}
+#footer-links a{color:#fff;text-decoration:none;display:block;margin-bottom:5px; text-transform: capitalize;}
 #footer-links *{position:relative;z-index:40}
 
 
