@@ -345,11 +345,10 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 #freeform #slider h1 {font-size: 48px; margin-bottom: 0; margin-top: 91px;}
 
 /* ---------------- Content ---------------- */
-#freeform main>.container {width: 1200px; padding: 30px;}
-#freeform main>.container>.row>div {margin: 0; padding: 0;}
-article.entry {margin-left: 22px; margin-top: -4px; line-height: 24px;}
+#freeform main>.container {width: 1200px; padding: 30px 15px;}
+article.entry {margin-top:-4px; line-height: 24px;}
 
-#flyout-wrap {background-color: #546a92; width: 270px; border-radius: 4px;padding-bottom: 21px; margin-left: -15px;}
+#flyout-wrap {background-color: #546a92; width: 270px; border-radius: 4px;padding-bottom: 21px;}
 #flyout-wrap h3 {color: #f7f088; padding-top: 28px; padding-left: 30px;font-size: 18px;font-weight: 700;text-transform: uppercase; margin-bottom: 5px; margin-top: 0;}
 #flyout{margin:0;padding:0;}
 #flyout li{margin:0;display:block;position:relative;}
@@ -366,8 +365,6 @@ article.entry {margin-left: 22px; margin-top: -4px; line-height: 24px;}
 #freeform .entry {font-size: 16px;}
 #freeform .entry h2 {font-size: 22px; font-weight: 700; color: #91b789; text-transform: uppercase;}
 #freeform .entry ul {font-weight: 700;}
-
-#freeform #footer-links {height: 400px;}
 
 #breadcrumbs{font-size:13px;text-transform:capitalize; z-index: 100;}
 #breadcrumbs p{margin:0; color: #fff; font-size: 16px; text-transform: uppercase;}
@@ -469,6 +466,10 @@ article.entry {margin-left: 22px; margin-top: -4px; line-height: 24px;}
 	#flyout,#nav{display:block!important}
 	#nav-toggle,.toggle,.toggle2{display:none}
 
+	article.entry {margin-left: 15px;}
+
+	#flyout-wrap {margin-left: -15px;}
+
 }
 
 @media only screen and (max-width:991px) {
@@ -502,7 +503,11 @@ article.entry {margin-left: 22px; margin-top: -4px; line-height: 24px;}
 
 	.floating-share-btn {top: unset; bottom: 0;}
 
-	#flyout {display:none}
+	#flyout {display:none; font-size: 16px;}
+	#flyout a {padding: 15px; border-bottom: 1px solid rgba(0,0,0,0.2);}
+	#flyout-toggle {cursor: pointer; padding: 15px; color: #fff; font-size: 16px;}
+	#flyout-wrap {padding: 0; width: auto; margin-bottom: 40px;}
+	#flyout-wrap h3 {display: none;}
 }
 
 	/* All Mobile Sizes (devices and browser) */
