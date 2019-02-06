@@ -344,11 +344,14 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 #freeform #slider .container {z-index: 100;}
 
 
-
-#flyout{margin:0;padding:0}
-#flyout li{margin:0;display:block;position:relative}
+#flyout-wrap {background-color: #546a92; width: 270px; border-radius: 4px;padding-bottom: 15px;}
+#flyout-wrap h3 {color: #f7f088; padding-top: 28px; padding-left: 30px;font-size: 18px;font-weight: 700;text-transform: uppercase; margin-bottom: 11px;}
+#flyout{margin:0;padding:0;}
+#flyout li{margin:0;display:block;position:relative;padding-left: 31px;padding-bottom: 14px;}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000; text-transform: capitalize;}
+#flyout span{text-decoration:none;display:block; text-transform: capitalize; color: #fff;}
+#flyout a:hover,
+#flyout span:hover {background-color: #f7f088; color: #27344d; font-weight: 700;}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
