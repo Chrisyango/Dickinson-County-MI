@@ -310,11 +310,11 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 #info .row.text-center>div>div {margin: 0 auto; border-radius: 50%; background-color: #546a92; width: 160px; height: 160px;}
 #info img {margin-top: 37px; width: 105px;}
 #info h4 {font-size: 24px; color: #91b789; text-transform: uppercase; letter-spacing: 2px;}
-#info h4>span {font-size: 48px; color: #546a92; letter-spacing: 0; display: block; margin-bottom: -32px;}
+#info h4>span {font-size: 48px; color: #546a92; letter-spacing: 0;}
 
 
 /* ---------------- Footer-Links ---------------- */
-#footer-links {position: relative;padding:143px 0 0; color: #fff; height: 400px;}
+#footer-links {position: relative;padding:143px 0 0; color: #fff;}
 #footer-links:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:10;opacity:.85}
 #footer-links>img{position: absolute; top: 0; left: 0; width: 100%;z-index:30}
 #footer-links h5{margin:0 0 11px;font-size:16px;font-weight:700;color:#f7f088;text-transform:uppercase}
