@@ -325,7 +325,7 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 
 
 /* ---------------- Footer ---------------- */
-footer {background-color: #546a92; padding: 15px 25px; color: #fff;}
+footer {background-color: #546a92; padding: 10px 25px; color: #fff;}
 footer>p {font-size: 13px; font-weight: 700; text-transform: uppercase; margin: 0; padding: 0;}
 footer>p>a:first-child {font-family:'Roboto', sans-serif; font-size: 18px; text-transform: lowercase;}
 footer>p>a {color: #fff !important; text-decoration: none;}
@@ -340,14 +340,20 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 
 /* ---------------- Hero ---------------- */
 #freeform #slider:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:50;opacity:.6}
-#freeform #slider {height:600px;}
+#freeform #slider {margin: 0; height: 450px;}
 #freeform #slider .container {z-index: 100;}
+#freeform #slider h1 {font-size: 48px; margin-bottom: 0; margin-top: 91px;}
 
+/* ---------------- Content ---------------- */
+#freeform main>.container {width: 1200px; padding: 30px;}
+#freeform main>.container>.row>div {margin: 0; padding: 0;}
+article.entry {margin-left: 22px; margin-top: -4px; line-height: 24px;}
 
-#flyout-wrap {background-color: #546a92; width: 270px; border-radius: 4px;padding-bottom: 15px;}
-#flyout-wrap h3 {color: #f7f088; padding-top: 28px; padding-left: 30px;font-size: 18px;font-weight: 700;text-transform: uppercase; margin-bottom: 11px;}
+#flyout-wrap {background-color: #546a92; width: 270px; border-radius: 4px;padding-bottom: 21px; margin-left: -15px;}
+#flyout-wrap h3 {color: #f7f088; padding-top: 28px; padding-left: 30px;font-size: 18px;font-weight: 700;text-transform: uppercase; margin-bottom: 5px; margin-top: 0;}
 #flyout{margin:0;padding:0;}
-#flyout li{margin:0;display:block;position:relative;padding-left: 31px;padding-bottom: 14px;}
+#flyout li{margin:0;display:block;position:relative;}
+#flyout a {padding: 7px 0 7px 31px;}
 #flyout a,
 #flyout span{text-decoration:none;display:block; text-transform: capitalize; color: #fff;}
 #flyout a:hover,
@@ -357,9 +363,15 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
 
+#freeform .entry {font-size: 16px;}
+#freeform .entry h2 {font-size: 22px; font-weight: 700; color: #91b789; text-transform: uppercase;}
+#freeform .entry ul {font-weight: 700;}
+
+#freeform #footer-links {height: 400px;}
+
 #breadcrumbs{font-size:13px;text-transform:capitalize; z-index: 100;}
-#breadcrumbs p{margin:0; color: #fff;}
-#breadcrumbs a{text-decoration:none; color: #f7f088;}
+#breadcrumbs p{margin:0; color: #fff; font-size: 16px; text-transform: uppercase;}
+#breadcrumbs a{text-decoration:none; color: #f7f088; font-weight: 700;}
 #breadcrumbs a:after{content: '/';}
 #breadcrumbs i{font-size:13px;margin:0 4px}
 

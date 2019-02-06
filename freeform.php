@@ -117,7 +117,7 @@
 				<main>
 				<section id="slider">
 					<ul class="bxslider">
-						<li style="background:url('./_assets_/images/hero.jpg') center no-repeat;background-size:cover;">
+						<li style="background:url('./_assets_/images/hero.jpg') no-repeat;background-size:cover;">
 						</li>
 					</ul><!--/.bxslider-->
 					<div class="container text-center">
@@ -136,7 +136,7 @@
 							</p>
 						</section><!-- /#breadcrumbs -->
 					</div>
-					<img src="./_assets_/images/hero-whitespace.png" alt="Whitespace">
+					<img src="./_assets_/images/interior-hero-whitespace.png" alt="Whitespace">
 				</section><!--/#slider-->
 
 				<div class="container">
@@ -168,13 +168,23 @@
 							<article class="entry">
 								<div class="post">
 									<p>
-										Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magnam in voluptatem, qui illum non vel nihil accusamus nobis beatae, impedit debitis itaque id cum vero sapiente laborum reiciendis consequuntur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magnam in voluptatem, qui illum non vel nihil accusamus nobis beatae, impedit debitis itaque id cum vero sapiente laborum reiciendis consequuntur.
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.
 									</p>
+									<img src="./_assets_/images/article.jpg" alt="">
 									<h2>header two (h2)</h2>
 									<p>
-										Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magnam in voluptatem, qui illum non vel nihil accusamus nobis beatae, impedit debitis itaque id cum vero sapiente laborum reiciendis consequuntur.
-										Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magnam in voluptatem, qui illum non vel nihil accusamus nobis beatae, impedit debitis itaque id cum vero sapiente laborum reiciendis consequuntur.
-										Lorem ipsum dolor sit amet consectetur, adipisicing elit. A magnam in voluptatem, qui illum non vel nihil accusamus nobis beatae, impedit debitis itaque id cum vero sapiente laborum reiciendis consequuntur.
+										Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+									</p>
+									<ul>
+										<li>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.</li>
+										<li>Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</li>
+										<li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+									</ul>
+									<p>
+										Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor.
+									</p>
+									<p>
+										Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
 									</p>
 								</div>
 							</article><!-- /.entry -->
