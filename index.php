@@ -269,7 +269,7 @@
 </main>
 
 <footer class="text-center">
-	<p>powered by <a href="https://www.revize.com/">revize.</a> | <a class="login" href="./">login</a></p>
+	<p>powered by <a href="https://www.revize.com/"><span>revize.</span>, The Government Website Experts.</a> | <a class="login" href="./">login</a></p>
 </footer>
 </div><!-- /.main-wrap -->
 

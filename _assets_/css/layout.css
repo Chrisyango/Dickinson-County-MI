@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: Dickinson County, MI
-	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
+	Author Design: Alex Parent
 	Front-end Developer: Chris Yang
 	Author URI: http://www.revize.com/
 	Date: January 29, 2019
@@ -195,23 +195,6 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 
-/* -----------------------------------------
-
-#loader
-
------------------------------------------*/
-#loader-wrapper{position:fixed;top:0;right:0;bottom:0;left:0;background:#233447;z-index:99999;display:none!important}
-#loader-wrapper img{width:60px;position:absolute;top:50%;left:50%;margin:-30px 0 0 -30px;animation:2s cubic-bezier(0.63, 0.045, 0.34, 1) 0s normal none infinite spinning_animation;-webkit-animation:2s cubic-bezier(0.63, 0.045, 0.34, 1) 0s normal none infinite spinning_animation}
-@keyframes spinning_animation {
-	0%{transform:scale(1) rotate(0deg);-o-transform:scale(1) rotate(0deg)}
-	50%{transform:scale(0.8) rotate(360deg);-o-transform:scale(0.8) rotate(360deg)}
-	100%{transform:scale(1) rotate(720deg);-o-transform:scale(1) rotate(720deg)}
-}
-@-webkit-keyframes spinning_animation {
-	0%{-webkit-transform:scale(1) rotate(0deg)}
-	50%{-webkit-transform:scale(0.8) rotate(360deg)}
-	100%{-webkit-transform:scale(1) rotate(720deg)}
-}
 
 /* -----------------------------------------
 
@@ -311,7 +294,7 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 
 
 /* ---------------- Footer-Links ---------------- */
-#footer-links {position: relative;padding:100px 0 50px; color: #fff;}
+#footer-links {position: relative;padding:144px 0 78px; color: #fff;}
 #footer-links:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:10;opacity:.85}
 #footer-links>img{position: absolute; top: 0; left: 0; width: 100%;z-index:30}
 #footer-links h5{margin:0 0 11px;font-size:16px;font-weight:700;color:#f7f088;text-transform:uppercase}
@@ -321,13 +304,13 @@ nav {background-color: #27344d; padding: 0 101px 0 98px}
 #footer-links p {margin-bottom: 23px; line-height: 1.3;}
 #footer-links *{position:relative;z-index:40}
 
-.footer-link-items {margin-bottom: 10px;}
+.footer-link-items {margin-bottom: 30px;}
 
 
 /* ---------------- Footer ---------------- */
 footer {background-color: #546a92; padding: 10px 25px; color: #fff;}
 footer>p {font-size: 13px; font-weight: 700; text-transform: uppercase; margin: 0; padding: 0;}
-footer>p>a:first-child {font-family:'Roboto', sans-serif; font-size: 18px; text-transform: lowercase;}
+footer>p>a:first-child>span {font-family:'Roboto', sans-serif; font-size: 18px; text-transform: lowercase;}
 footer>p>a {color: #fff !important; text-decoration: none;}
 
 
@@ -341,35 +324,34 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 /* ---------------- Hero ---------------- */
 #freeform #slider:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:50;opacity:.6}
 #freeform #slider {margin: 0; height: 450px;}
-#freeform #slider .container {z-index: 100;}
-#freeform #slider h1 {font-size: 48px; margin-bottom: 0; margin-top: 91px;}
+#freeform #slider .container {z-index: 100; margin-top: 44px;}
+#freeform #slider h1 {font-size: 48px; margin-bottom: 0;}
 
 /* ---------------- Content ---------------- */
-#freeform main>.container {width: 1200px; padding: 30px 15px;}
-article.entry {margin-top:-4px; line-height: 24px;}
+#freeform .container {width: 1230px; padding: 30px 15px;}
+article.entry {line-height: 24px;}
 
-#flyout-wrap {background-color: #546a92; width: 270px; border-radius: 4px;padding-bottom: 21px;}
-#flyout-wrap h3 {color: #f7f088; padding-top: 28px; padding-left: 30px;font-size: 18px;font-weight: 700;text-transform: uppercase; margin-bottom: 5px; margin-top: 0;}
+#flyout-wrap {background-color: #546a92; border-radius: 4px; padding: 27px 0 22px;}
+#flyout-wrap h3 {color: #f7f088; font-size: 18px;font-weight: 700;text-transform: uppercase;margin: 0; padding: 0; margin-left: 30px; margin-bottom: 5px;}
 #flyout{margin:0;padding:0;}
 #flyout li{margin:0;display:block;position:relative;}
-#flyout a {padding: 7px 0 7px 31px;}
 #flyout a,
-#flyout span{text-decoration:none;display:block; text-transform: capitalize; color: #fff;}
+#flyout span{text-decoration:none;display:block; text-transform: capitalize; color: #fff; padding: 7px 30px;}
 #flyout a:hover,
 #flyout span:hover {background-color: #f7f088; color: #27344d; font-weight: 700;}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#27344d; z-index: 1}
 #flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
-#flyout li:hover > ul{display:block}
+#flyout ul span{font-size:13px;}
+.toggle-children {margin-left: 5px;}
 
 #freeform .entry {font-size: 16px;}
-#freeform .entry h2 {font-size: 22px; font-weight: 700; color: #91b789; text-transform: uppercase;}
+#freeform .entry .header {display: block; font-size: 22px; font-weight: 700; margin: 22px 0 8px; color: #91b789; text-transform: uppercase;}
 #freeform .entry ul {font-weight: 700;}
 
 #breadcrumbs{font-size:13px;text-transform:capitalize; z-index: 100;}
-#breadcrumbs p{margin:0; color: #fff; font-size: 16px; text-transform: uppercase;}
+#breadcrumbs p{margin: 1px 0 0; color: #fff; font-size: 16px; text-transform: uppercase;}
 #breadcrumbs a{text-decoration:none; color: #f7f088; font-weight: 700;}
-#breadcrumbs a:after{content: '/';}
+#breadcrumbs a:after{content: '/'; margin: 0 4px;}
 #breadcrumbs i{font-size:13px;margin:0 4px}
 
 /* -----------------------------------------
@@ -452,6 +434,11 @@ article.entry {margin-top:-4px; line-height: 24px;}
 
 @media only screen and (max-width:1200px){
 	#logo{width:300px;margin-top:26px}
+
+	#lwp .container {width: 90%;}
+	#lwp .owl-prev {top: 42%; left: -6%; color: #fff; text-shadow: 0px 0px 10px #000;}
+	#lwp .owl-next {top: 42%; right: -6%; color: #fff; text-shadow: 0px 0px 10px #000;}
+
 	#info {margin-top: 400px;}
 }
 
@@ -464,11 +451,11 @@ article.entry {margin-top:-4px; line-height: 24px;}
 	#nav ul a,#nav ul span{padding:0}
 	#nav li:hover>ul{display:block}
 	#flyout,#nav{display:block!important}
+	#flyout li:hover > ul{display:block}
 	#nav-toggle,.toggle,.toggle2{display:none}
 
-	article.entry {margin-left: 15px;}
-
-	#flyout-wrap {margin-left: -15px;}
+	#freeform .col-md-3 {padding-left: 15px; padding-right: 23px;}
+	#freeform .col-md-9 {padding-left: 37px; padding-right: 15px; margin-top: -6px;}
 
 }
 
@@ -508,6 +495,8 @@ article.entry {margin-top:-4px; line-height: 24px;}
 	#flyout-toggle {cursor: pointer; padding: 15px; color: #fff; font-size: 16px;}
 	#flyout-wrap {padding: 0; width: auto; margin-bottom: 40px;}
 	#flyout-wrap h3 {display: none;}
+	#flyout ul{display: none; position: initial;}
+	.toggle-children {position: absolute; top: 0; right: 0; padding: 16px 18px; border: 1px solid #fff; border-radius: 4px;}
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -544,7 +533,9 @@ article.entry {margin-top:-4px; line-height: 24px;}
 	#slider .container.text-center>h1>span:first-of-type {transform: translate(-127%, -167%);}
 
 	.lwp-carousel {bottom: -480px;}
-	.lwp-carousel a {height: 400px;}
+	.lwp-carousel a {height: 380px;}
+	#lwp .owl-prev {top: 34%;}
+	#lwp .owl-next {top: 34%;}
 
 	#info {margin-top: 350px;}
 	#info .row.text-center>div>div {width: 150px; height: 150px;}
@@ -559,6 +550,12 @@ article.entry {margin-top:-4px; line-height: 24px;}
 	.nav-wrap,
 	.sidebar,
 	#flyout-wrap,
+	header,
+	footer,
+	#footer-links,
+	#slider,
+	.floating-share-btn,
+	.floating-alert,
 	#breadcrumbs
 	.e-notify{display:none!important}
 	a[href]:after{content:none!important}

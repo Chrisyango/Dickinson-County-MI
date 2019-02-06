@@ -148,7 +148,18 @@
 									<li><a href="./">commodo ullamcorper elit fusce</a></li>
 									<li><a href="./">tellus sollicitudin tellus</a></li>
 									<li><a href="./">malesuada elit cras consectetur</a></li>
-									<li><a href="./">mollis adipiscing quam sem</a></li>
+									<li>
+										<a href="./">mollis adipiscing quam sem</a>
+										<ul>
+											<li><a href="./">fermentumipsumpharetra tellus</a></li>
+											<li><a href="./">commodo ullamcorper elit fusce</a></li>
+											<li><a href="./">tellus sollicitudin tellus</a></li>
+											<li><a href="./">malesuada elit cras consectetur</a></li>
+											<li><a href="./">mollis adipiscing quam sem</a></li>
+											<li><a href="./">fermentumipsumpharetra tellus</a></li>
+											<li><a href="./">commodo ullamcorper elit fusce</a></li>
+										</ul>
+									</li>
 									<li><a href="./">fermentumipsumpharetra tellus</a></li>
 									<li><a href="./">commodo ullamcorper elit fusce</a></li>
 									<li><a href="./">tellus sollicitudin tellus</a></li>
@@ -171,7 +182,7 @@
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.
 									</p>
 									<img src="./_assets_/images/article.jpg" alt="">
-									<h2>header two (h2)</h2>
+									<span class="header">header two (h2)</span>
 									<p>
 										Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 									</p>
@@ -196,7 +207,7 @@
 					<img src="./_assets_/images/footer-links-whitespace.png" alt="Whitespace">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6 footer-link-items">
 								<h5>County Departments</h5>
 								<ul>
 									<li><a href="./">Board of Commissioners</a></li>
@@ -208,7 +219,7 @@
 									<li><a href="./">Courts</a></li>
 								</ul>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6 footer-link-items">
 								<h5>County Departments</h5>
 								<ul>
 									<li><a href="./">Drain Commissioner</a></li>
@@ -219,7 +230,8 @@
 									<li><a href="./">Ford Airport</a></li>
 								</ul>
 							</div>
-							<div class="col-md-3">
+							<div class="clearfix visible-sm-block"></div>
+							<div class="col-md-3 col-sm-6 footer-link-items">
 								<h5>Quicklinks</h5>
 								<ul>
 									<li><a href="./">Documents</a></li>
@@ -229,7 +241,7 @@
 									<li><a href="./">Contact Information</a></li>
 								</ul>
 							</div>
-							<div id="contact" class="col-md-3">
+							<div id="contact" class="col-md-3 col-sm-6 footer-link-items">
 								<div id="contact-us">
 									<h5>Contact Us</h5>
 									<p>705 S. Stephenson Ave.<br>Iron Mountain MI 49801</p>
@@ -245,7 +257,7 @@
 				</main>
 
 				<footer class="text-center">
-					<p>powered by <a href="https://www.revize.com/">revize.</a> | <a class="login" href="./">login</a></p>
+					<p>powered by <a href="https://www.revize.com/"><span>revize.</span>, The Government Website Experts.</a> | <a class="login" href="./">login</a></p>
 				</footer>
 				</div><!-- /.main-wrap -->  
 
