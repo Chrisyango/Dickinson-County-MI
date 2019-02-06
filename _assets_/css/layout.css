@@ -324,7 +324,7 @@ footer>p>a {color: #fff !important; text-decoration: none;}
 /* ---------------- Hero ---------------- */
 #freeform #slider:after{content:'';position:absolute;left:0;right:0;top:0;bottom:0;background:#27344d;z-index:50;opacity:.6}
 #freeform #slider {margin: 0; height: 450px;}
-#freeform #slider .container {z-index: 100; margin-top: 44px;}
+#freeform #slider .container {z-index: 100; margin-top: 44px; padding: 0 15px;}
 #freeform #slider h1 {font-size: 48px; margin-bottom: 0;}
 
 /* ---------------- Content ---------------- */
